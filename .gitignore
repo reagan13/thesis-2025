@@ -11,3 +11,5 @@ output
 ./output
 
 /output
+
+*.csv
