@@ -1,0 +1,24 @@
+=== PERFORMANCE BENCHMARK RESULTS ===
+
+CPU PERFORMANCE:
+Average Classification Time: 1.5178 seconds
+Average Generation Time: 32.6261 seconds
+Average Overall Time: 34.1439 seconds
+Average Memory Usage: 2.9399 MB
+
+GPU PERFORMANCE:
+Average Classification Time: 0.2105 seconds
+Average Generation Time: 2.4827 seconds
+Average Overall Time: 2.6932 seconds
+Average Memory Usage: 2731.7747 MB
+
+CPU vs GPU COMPARISON:
+Classification Speed Improvement: 7.21x faster on GPU
+Generation Speed Improvement: 13.14x faster on GPU
+Overall Speed Improvement: 12.68x faster on GPU
+
+Notes:
+- GPU memory usage is typically higher but processing is faster
+- The generation task shows the largest speed improvement on GPU
+
+=== END OF REPORT ===

@@ -1,0 +1,25 @@
+=== BASELINE PIPELINE PERFORMANCE BENCHMARK RESULTS ===
+
+CPU PERFORMANCE:
+Average Classification Time: 0.7530 seconds
+Average Generation Time: 16.6287 seconds
+Average Overall Time: 17.3817 seconds
+Average Memory Usage: 18.1313 MB
+
+GPU PERFORMANCE:
+Average Classification Time: 0.6331 seconds
+Average Generation Time: 13.2808 seconds
+Average Overall Time: 13.9139 seconds
+Average Memory Usage: 2192.0493 MB
+
+CPU vs GPU COMPARISON:
+Classification Speed Improvement: 1.19x faster on GPU
+Generation Speed Improvement: 1.25x faster on GPU
+Overall Speed Improvement: 1.25x faster on GPU
+
+Notes:
+- Classification is typically faster than generation
+- GPU provides greater speedup for generation than classification
+- Memory usage is higher on GPU but processing is much faster
+
+=== END OF REPORT ===

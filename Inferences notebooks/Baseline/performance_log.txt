@@ -1,0 +1,1217 @@
+[2025-03-10 19:19:05] Using device: cuda
+[2025-03-10 19:19:05] Loading test data...
+[2025-03-10 19:19:05] Loaded 2688 test samples, will test on first 50
+[2025-03-10 19:19:05] Loading label encoders...
+[2025-03-10 19:19:05] Loading hyperparameters...
+[2025-03-10 19:19:05] Loading classification model...
+[2025-03-10 19:19:06] Initializing model...
+[2025-03-10 19:19:07] All GPT-2 layers remain frozen
+[2025-03-10 19:19:10] Loading text generation model...
+[2025-03-10 19:33:44] Results saved to performance_results_cpu.json
+[2025-03-10 19:36:03] Results saved to performance_results_cuda.json
+[2025-03-10 19:36:03] Results table saved to performance_results_table.csv
+[2025-03-10 19:36:04] Cleanup completed
+[2025-03-10 19:37:07] Using device: cuda
+[2025-03-10 19:37:07] Loading test data...
+[2025-03-10 19:37:07] Loaded 2688 test samples, will test on first 50
+[2025-03-10 19:37:07] Loading label encoders...
+[2025-03-10 19:37:07] Loading hyperparameters...
+[2025-03-10 19:37:07] Loading classification model...
+[2025-03-10 19:37:07] Initializing model...
+[2025-03-10 19:37:09] All GPT-2 layers remain frozen
+[2025-03-10 19:37:11] Loading text generation model...
+[2025-03-10 19:37:33] Main execution failed: get_memory_usage() takes 0 positional arguments but 1 was given
+[2025-03-10 19:37:33] Cleanup completed
+[2025-03-10 19:41:56] Initial device detection: cuda
+[2025-03-10 19:41:56] Loading test data...
+[2025-03-10 19:41:56] Loaded 2688 test samples, will test on first 50
+[2025-03-10 19:41:56] Loading label encoders...
+[2025-03-10 19:41:56] Loading hyperparameters...
+[2025-03-10 19:41:56] Loading classification model...
+[2025-03-10 19:41:57] Initializing model...
+[2025-03-10 19:41:58] All GPT-2 layers remain frozen
+[2025-03-10 19:42:00] Loading text generation model...
+[2025-03-10 19:42:01] Models moved to cpu
+[2025-03-10 19:42:14] Sample 1 classification result on cpu: {"intent": {"label": "get_invoice", "confidence": 0.19567584991455078}, "category": {"label": "invoice", "confidence": 0.5679301023483276}, "ner": [{"entity": "#", "label": "refund_amount", "confidence": 0.2312598079442978}]}
+[2025-03-10 19:42:27] Sample 2 classification result on cpu: {"intent": {"label": "create_account", "confidence": 0.16891761124134064}, "category": {"label": "account", "confidence": 0.5455468893051147}, "ner": [{"entity": "live", "label": "account_type", "confidence": 0.33626312017440796}, {"entity": "agent", "label": "account_type", "confidence": 0.3015405237674713}]}
+[2025-03-10 19:42:39] Sample 3 classification result on cpu: {"intent": {"label": "delivery_period", "confidence": 0.3167915642261505}, "category": {"label": "delivery", "confidence": 0.43362462520599365}, "ner": []}
+[2025-03-10 19:42:51] Sample 4 classification result on cpu: {"intent": {"label": "contact_customer_service", "confidence": 0.3563598394393921}, "category": {"label": "contact", "confidence": 0.7082334160804749}, "ner": [{"entity": "customer", "label": "account_type", "confidence": 0.4194634258747101}]}
+[2025-03-10 19:43:04] Sample 5 classification result on cpu: {"intent": {"label": "switch_account", "confidence": 0.10647444427013397}, "category": {"label": "account", "confidence": 0.18986919522285461}, "ner": [{"entity": "sw", "label": "person_name", "confidence": 0.2569608986377716}, {"entity": "premium", "label": "account_type", "confidence": 0.6151852607727051}]}
+[2025-03-10 19:43:30] Sample 6 classification result on cpu: {"intent": {"label": "recover_password", "confidence": 0.7754619121551514}, "category": {"label": "account", "confidence": 0.8280244469642639}, "ner": [{"entity": "user", "label": "account_type", "confidence": 0.6120875477790833}]}
+[2025-03-10 19:43:54] Sample 7 classification result on cpu: {"intent": {"label": "check_invoice", "confidence": 0.21389096975326538}, "category": {"label": "invoice", "confidence": 0.7948863506317139}, "ner": []}
+[2025-03-10 19:44:05] Sample 8 classification result on cpu: {"intent": {"label": "set_up_shipping_address", "confidence": 0.4039679169654846}, "category": {"label": "shipping", "confidence": 0.8360440731048584}, "ner": [{"entity": "delivery", "label": "account_category", "confidence": 0.5240316390991211}]}
+[2025-03-10 19:44:23] Warning: Zero memory usage for sample 8 on cpu
+[2025-03-10 19:44:23] System memory: 16085.17 MB total, 13805.52 MB used
+[2025-03-10 19:44:23] Sample 9 classification result on cpu: {"intent": {"label": "place_order", "confidence": 0.16075454652309418}, "category": {"label": "delivery", "confidence": 0.17070479691028595}, "ner": []}
+[2025-03-10 19:44:31] Warning: Zero memory usage for sample 9 on cpu
+[2025-03-10 19:44:31] System memory: 16085.17 MB total, 13821.97 MB used
+[2025-03-10 19:44:31] Sample 10 classification result on cpu: {"intent": {"label": "set_up_shipping_address", "confidence": 0.18670779466629028}, "category": {"label": "shipping", "confidence": 0.6253975629806519}, "ner": [{"entity": "shipping", "label": "account_category", "confidence": 0.39011892676353455}]}
+[2025-03-10 19:44:47] Warning: Zero memory usage for sample 10 on cpu
+[2025-03-10 19:44:47] System memory: 16085.17 MB total, 13750.36 MB used
+[2025-03-10 19:44:48] Sample 11 classification result on cpu: {"intent": {"label": "set_up_shipping_address", "confidence": 0.2823355495929718}, "category": {"label": "shipping", "confidence": 0.783279299736023}, "ner": [{"entity": "new", "label": "account_type", "confidence": 0.5191566348075867}, {"entity": "del", "label": "person_name", "confidence": 0.2667810618877411}]}
+[2025-03-10 19:44:56] Warning: Zero memory usage for sample 11 on cpu
+[2025-03-10 19:44:56] System memory: 16085.17 MB total, 13819.60 MB used
+[2025-03-10 19:44:56] Sample 12 classification result on cpu: {"intent": {"label": "check_payment_methods", "confidence": 0.3703554570674896}, "category": {"label": "payment", "confidence": 0.8130443692207336}, "ner": []}
+[2025-03-10 19:45:05] Warning: Zero memory usage for sample 12 on cpu
+[2025-03-10 19:45:05] System memory: 16085.17 MB total, 13804.79 MB used
+[2025-03-10 19:45:06] Sample 13 classification result on cpu: {"intent": {"label": "review", "confidence": 0.5230767130851746}, "category": {"label": "feedback", "confidence": 0.860671877861023}, "ner": []}
+[2025-03-10 19:45:12] Warning: Zero memory usage for sample 13 on cpu
+[2025-03-10 19:45:12] System memory: 16085.17 MB total, 13864.05 MB used
+[2025-03-10 19:45:13] Sample 14 classification result on cpu: {"intent": {"label": "create_account", "confidence": 0.4899155795574188}, "category": {"label": "account", "confidence": 0.9348122477531433}, "ner": [{"entity": "fre", "label": "person_name", "confidence": 0.17142973840236664}, {"entity": "ium", "label": "account_type", "confidence": 0.3450208008289337}, {"entity": "wife", "label": "account_type", "confidence": 0.24859191477298737}]}
+[2025-03-10 19:45:24] Warning: Zero memory usage for sample 14 on cpu
+[2025-03-10 19:45:24] System memory: 16085.17 MB total, 13829.45 MB used
+[2025-03-10 19:45:25] Sample 15 classification result on cpu: {"intent": {"label": "track_order", "confidence": 0.3951927423477173}, "category": {"label": "order", "confidence": 0.7822355628013611}, "ner": [{"entity": "ord-1135283", "label": "order_number", "confidence": 0.9804766535758972}]}
+[2025-03-10 19:45:35] Warning: Zero memory usage for sample 15 on cpu
+[2025-03-10 19:45:35] System memory: 16085.17 MB total, 13867.45 MB used
+[2025-03-10 19:45:35] Sample 16 classification result on cpu: {"intent": {"label": "check_payment_methods", "confidence": 0.20671556890010834}, "category": {"label": "payment", "confidence": 0.44479915499687195}, "ner": []}
+[2025-03-10 19:45:55] Warning: Zero memory usage for sample 16 on cpu
+[2025-03-10 19:45:55] System memory: 16085.17 MB total, 13866.65 MB used
+[2025-03-10 19:45:56] Sample 17 classification result on cpu: {"intent": {"label": "switch_account", "confidence": 0.1233656257390976}, "category": {"label": "account", "confidence": 0.18082572519779205}, "ner": [{"entity": "real", "label": "account_type", "confidence": 0.24802863597869873}, {"entity": "estate", "label": "account_category", "confidence": 0.6432812213897705}]}
+[2025-03-10 19:46:08] Warning: Zero memory usage for sample 17 on cpu
+[2025-03-10 19:46:08] System memory: 16085.17 MB total, 13854.46 MB used
+[2025-03-10 19:46:09] Sample 18 classification result on cpu: {"intent": {"label": "registration_problems", "confidence": 0.4842391908168793}, "category": {"label": "payment", "confidence": 0.41087716817855835}, "ner": [{"entity": "online", "label": "account_type", "confidence": 0.33580347895622253}]}
+[2025-03-10 19:46:20] Warning: Zero memory usage for sample 18 on cpu
+[2025-03-10 19:46:20] System memory: 16085.17 MB total, 13880.47 MB used
+[2025-03-10 19:46:20] Sample 19 classification result on cpu: {"intent": {"label": "create_account", "confidence": 0.2087658792734146}, "category": {"label": "account", "confidence": 0.6804514527320862}, "ner": [{"entity": "standard", "label": "account_type", "confidence": 0.6696047186851501}, {"entity": "acc", "label": "delivery_country", "confidence": 0.15285898745059967}, {"entity": "father", "label": "account_type", "confidence": 0.14213915169239044}]}
+[2025-03-10 19:46:31] Warning: Zero memory usage for sample 19 on cpu
+[2025-03-10 19:46:31] System memory: 16085.17 MB total, 13888.06 MB used
+[2025-03-10 19:46:32] Sample 20 classification result on cpu: {"intent": {"label": "delete_account", "confidence": 0.12966735661029816}, "category": {"label": "account", "confidence": 0.4132760167121887}, "ner": [{"entity": "inf", "label": "person_name", "confidence": 0.1965184360742569}, {"entity": "enterprise", "label": "account_type", "confidence": 0.8286491632461548}]}
+[2025-03-10 19:46:42] Warning: Zero memory usage for sample 20 on cpu
+[2025-03-10 19:46:42] System memory: 16085.17 MB total, 13854.32 MB used
+[2025-03-10 19:46:43] Sample 21 classification result on cpu: {"intent": {"label": "place_order", "confidence": 0.7790759801864624}, "category": {"label": "order", "confidence": 0.780108630657196}, "ner": []}
+[2025-03-10 19:46:51] Sample 22 classification result on cpu: {"intent": {"label": "track_order", "confidence": 0.5296458601951599}, "category": {"label": "order", "confidence": 0.9760146737098694}, "ner": [{"entity": "ord-6772250", "label": "order_number", "confidence": 0.9906835436820984}]}
+[2025-03-10 19:47:02] Sample 23 classification result on cpu: {"intent": {"label": "delete_account", "confidence": 0.22180011868476868}, "category": {"label": "account", "confidence": 0.7741872668266296}, "ner": [{"entity": "government", "label": "account_type", "confidence": 0.598401665687561}]}
+[2025-03-10 19:47:13] Sample 24 classification result on cpu: {"intent": {"label": "complaint", "confidence": 0.2859945595264435}, "category": {"label": "feedback", "confidence": 0.8462762236595154}, "ner": [{"entity": "consumer", "label": "account_type", "confidence": 0.522386372089386}]}
+[2025-03-10 19:47:21] Sample 25 classification result on cpu: {"intent": {"label": "track_order", "confidence": 0.48149463534355164}, "category": {"label": "order", "confidence": 0.9580598473548889}, "ner": [{"entity": "ord-3779640", "label": "order_number", "confidence": 0.9878963470458985}]}
+[2025-03-10 19:47:31] Sample 26 classification result on cpu: {"intent": {"label": "check_refund_policy", "confidence": 0.3195027709007263}, "category": {"label": "refund", "confidence": 0.616814374923706}, "ner": []}
+[2025-03-10 19:47:57] Sample 27 classification result on cpu: {"intent": {"label": "contact_customer_service", "confidence": 0.2733786106109619}, "category": {"label": "contact", "confidence": 0.519504964351654}, "ner": [{"entity": "customer", "label": "account_type", "confidence": 0.5467326641082764}]}
+[2025-03-10 19:48:07] Sample 28 classification result on cpu: {"intent": {"label": "review", "confidence": 0.1553545743227005}, "category": {"label": "feedback", "confidence": 0.3129240572452545}, "ner": [{"entity": "pro", "label": "account_type", "confidence": 0.13711000978946686}]}
+[2025-03-10 19:48:21] Sample 29 classification result on cpu: {"intent": {"label": "cancel_order", "confidence": 0.5839824080467224}, "category": {"label": "order", "confidence": 0.9725426435470581}, "ner": [{"entity": "ord-8227420", "label": "order_number", "confidence": 0.9884959657986959}]}
+[2025-03-10 19:48:45] Sample 30 classification result on cpu: {"intent": {"label": "cancel_order", "confidence": 0.5656915903091431}, "category": {"label": "order", "confidence": 0.9232650399208069}, "ner": [{"entity": "ord-8042947", "label": "order_number", "confidence": 0.968000340461731}]}
+[2025-03-10 19:48:54] Sample 31 classification result on cpu: {"intent": {"label": "get_invoice", "confidence": 0.22655430436134338}, "category": {"label": "invoice", "confidence": 0.7122964859008789}, "ner": [{"entity": "#", "label": "refund_amount", "confidence": 0.24311229586601257}]}
+[2025-03-10 19:49:10] Sample 32 classification result on cpu: {"intent": {"label": "track_order", "confidence": 0.34240615367889404}, "category": {"label": "order", "confidence": 0.9338838458061218}, "ner": [{"entity": "ord-0521414", "label": "order_number", "confidence": 0.9846315264701844}]}
+[2025-03-10 19:49:20] Sample 33 classification result on cpu: {"intent": {"label": "get_refund", "confidence": 0.2567027807235718}, "category": {"label": "refund", "confidence": 0.7023764848709106}, "ner": []}
+[2025-03-10 19:49:30] Sample 34 classification result on cpu: {"intent": {"label": "delivery_options", "confidence": 0.2081701159477234}, "category": {"label": "delivery", "confidence": 0.5221866965293884}, "ner": []}
+[2025-03-10 19:50:16] Sample 35 classification result on cpu: {"intent": {"label": "set_up_shipping_address", "confidence": 0.1348457634449005}, "category": {"label": "shipping", "confidence": 0.4588942527770996}, "ner": []}
+[2025-03-10 19:50:24] Sample 36 classification result on cpu: {"intent": {"label": "check_refund_policy", "confidence": 0.3449886739253998}, "category": {"label": "refund", "confidence": 0.46554964780807495}, "ner": []}
+[2025-03-10 19:50:44] Sample 37 classification result on cpu: {"intent": {"label": "contact_human_agent", "confidence": 0.39063677191734314}, "category": {"label": "contact", "confidence": 0.697363018989563}, "ner": [{"entity": "mke", "label": "person_name", "confidence": 0.1932021751999855}]}
+[2025-03-10 19:50:58] Sample 38 classification result on cpu: {"intent": {"label": "change_shipping_address", "confidence": 0.5939701795578003}, "category": {"label": "shipping", "confidence": 0.9212825298309326}, "ner": [{"entity": "shipping", "label": "account_category", "confidence": 0.414623498916626}]}
+[2025-03-10 19:51:19] Sample 39 classification result on cpu: {"intent": {"label": "change_order", "confidence": 0.479540079832077}, "category": {"label": "order", "confidence": 0.9602566361427307}, "ner": [{"entity": "w", "label": "currency_symbol", "confidence": 0.18037308752536774}, {"entity": "ord-9073141", "label": "order_number", "confidence": 0.9746359984079996}]}
+[2025-03-10 19:51:31] Sample 40 classification result on cpu: {"intent": {"label": "place_order", "confidence": 0.46438002586364746}, "category": {"label": "order", "confidence": 0.29288163781166077}, "ner": []}
+[2025-03-10 19:51:43] Sample 41 classification result on cpu: {"intent": {"label": "change_shipping_address", "confidence": 0.1226685419678688}, "category": {"label": "shipping", "confidence": 0.3376966416835785}, "ner": []}
+[2025-03-10 19:51:56] Sample 42 classification result on cpu: {"intent": {"label": "track_order", "confidence": 0.4790880084037781}, "category": {"label": "order", "confidence": 0.9921019673347473}, "ner": [{"entity": "ord-9186353 status", "label": "order_number", "confidence": 0.9188383320967356}]}
+[2025-03-10 19:52:07] Sample 43 classification result on cpu: {"intent": {"label": "complaint", "confidence": 0.3954868018627167}, "category": {"label": "feedback", "confidence": 0.8358936309814453}, "ner": [{"entity": "business", "label": "account_type", "confidence": 0.3160267770290375}]}
+[2025-03-10 19:52:17] Sample 44 classification result on cpu: {"intent": {"label": "check_refund_policy", "confidence": 0.2778432071208954}, "category": {"label": "refund", "confidence": 0.6387556195259094}, "ner": []}
+[2025-03-10 19:52:35] Sample 45 classification result on cpu: {"intent": {"label": "payment_issue", "confidence": 0.4139965772628784}, "category": {"label": "payment", "confidence": 0.8458155989646912}, "ner": []}
+[2025-03-10 19:52:37] Cleanup completed
+[2025-03-10 19:55:18] Initial device detection: cuda
+[2025-03-10 19:55:18] Loading test data...
+[2025-03-10 19:55:18] Loaded 2688 test samples, will test on first 50
+[2025-03-10 19:55:18] Loading label encoders...
+[2025-03-10 19:55:18] Loading hyperparameters...
+[2025-03-10 19:55:18] Loading classification model...
+[2025-03-10 19:55:19] Initializing model...
+[2025-03-10 19:55:20] All GPT-2 layers remain frozen
+[2025-03-10 19:55:22] Loading text generation model...
+[2025-03-10 19:55:23] Models moved to cpu
+[2025-03-10 19:55:43] Sample 1 classification result on cpu: {"intent": {"label": "get_invoice", "confidence": 0.19567584991455078}, "category": {"label": "invoice", "confidence": 0.5679301023483276}, "ner": [{"entity": "#", "label": "refund_amount", "confidence": 0.2312598079442978}]}
+[2025-03-10 19:55:59] Sample 2 classification result on cpu: {"intent": {"label": "create_account", "confidence": 0.16891761124134064}, "category": {"label": "account", "confidence": 0.5455468893051147}, "ner": [{"entity": "live", "label": "account_type", "confidence": 0.33626312017440796}, {"entity": "agent", "label": "account_type", "confidence": 0.3015405237674713}]}
+[2025-03-10 19:56:08] Cleanup completed
+[2025-03-10 19:57:52] Initial device detection: cuda
+[2025-03-10 19:57:52] Loading test data...
+[2025-03-10 19:57:52] Loaded 2688 test samples, will test on first 50
+[2025-03-10 19:57:52] Loading label encoders...
+[2025-03-10 19:57:52] Loading hyperparameters...
+[2025-03-10 19:57:52] Loading classification model...
+[2025-03-10 19:57:53] Initializing model...
+[2025-03-10 19:57:54] All GPT-2 layers remain frozen
+[2025-03-10 19:57:56] Loading text generation model...
+[2025-03-10 19:57:56] Models moved to cpu
+[2025-03-10 19:58:13] Sample 1 classification result on cpu: {"intent": {"label": "get_invoice", "confidence": 0.19567584991455078}, "category": {"label": "invoice", "confidence": 0.5679301023483276}, "ner": [{"entity": "#", "label": "refund_amount", "confidence": 0.2312598079442978}]}
+[2025-03-10 19:58:19] Cleanup completed
+[2025-03-10 19:58:33] Initial device detection: cuda
+[2025-03-10 19:58:33] Loading test data...
+[2025-03-10 19:58:33] Loaded 2688 test samples, will test on first 50
+[2025-03-10 19:58:33] Loading label encoders...
+[2025-03-10 19:58:33] Loading hyperparameters...
+[2025-03-10 19:58:33] Loading classification model...
+[2025-03-10 19:58:34] Initializing model...
+[2025-03-10 19:58:36] All GPT-2 layers remain frozen
+[2025-03-10 19:58:37] Loading text generation model...
+[2025-03-10 19:58:38] Models moved to cpu
+[2025-03-10 19:58:52] Sample 1 classification result on cpu: {"intent": {"label": "get_invoice", "confidence": 0.19567584991455078}, "category": {"label": "invoice", "confidence": 0.5679301023483276}, "ner": [{"entity": "#", "label": "refund_amount", "confidence": 0.2312598079442978}]}
+[2025-03-10 19:59:08] Sample 2 classification result on cpu: {"intent": {"label": "create_account", "confidence": 0.16891761124134064}, "category": {"label": "account", "confidence": 0.5455468893051147}, "ner": [{"entity": "live", "label": "account_type", "confidence": 0.33626312017440796}, {"entity": "agent", "label": "account_type", "confidence": 0.3015405237674713}]}
+[2025-03-10 19:59:21] Sample 3 classification result on cpu: {"intent": {"label": "delivery_period", "confidence": 0.3167915642261505}, "category": {"label": "delivery", "confidence": 0.43362462520599365}, "ner": []}
+[2025-03-10 19:59:30] Warning: Zero memory usage for sample 3 on cpu
+[2025-03-10 19:59:30] System memory: 16085.17 MB total, 13557.23 MB used
+[2025-03-10 19:59:31] Sample 4 classification result on cpu: {"intent": {"label": "contact_customer_service", "confidence": 0.3563598394393921}, "category": {"label": "contact", "confidence": 0.7082334160804749}, "ner": [{"entity": "customer", "label": "account_type", "confidence": 0.4194634258747101}]}
+[2025-03-10 19:59:43] Warning: Zero memory usage for sample 4 on cpu
+[2025-03-10 19:59:43] System memory: 16085.17 MB total, 13585.08 MB used
+[2025-03-10 19:59:44] Sample 5 classification result on cpu: {"intent": {"label": "switch_account", "confidence": 0.10647444427013397}, "category": {"label": "account", "confidence": 0.18986919522285461}, "ner": [{"entity": "sw", "label": "person_name", "confidence": 0.2569608986377716}, {"entity": "premium", "label": "account_type", "confidence": 0.6151852607727051}]}
+[2025-03-10 20:00:01] Warning: Zero memory usage for sample 5 on cpu
+[2025-03-10 20:00:01] System memory: 16085.17 MB total, 13526.43 MB used
+[2025-03-10 20:00:01] Sample 6 classification result on cpu: {"intent": {"label": "recover_password", "confidence": 0.7754619121551514}, "category": {"label": "account", "confidence": 0.8280244469642639}, "ner": [{"entity": "user", "label": "account_type", "confidence": 0.6120875477790833}]}
+[2025-03-10 20:00:25] Warning: Zero memory usage for sample 6 on cpu
+[2025-03-10 20:00:25] System memory: 16085.17 MB total, 13567.25 MB used
+[2025-03-10 20:00:26] Sample 7 classification result on cpu: {"intent": {"label": "check_invoice", "confidence": 0.21389096975326538}, "category": {"label": "invoice", "confidence": 0.7948863506317139}, "ner": []}
+[2025-03-10 20:00:46] Warning: Zero memory usage for sample 7 on cpu
+[2025-03-10 20:00:46] System memory: 16085.17 MB total, 13792.71 MB used
+[2025-03-10 20:00:47] Sample 8 classification result on cpu: {"intent": {"label": "set_up_shipping_address", "confidence": 0.4039679169654846}, "category": {"label": "shipping", "confidence": 0.8360440731048584}, "ner": [{"entity": "delivery", "label": "account_category", "confidence": 0.5240316390991211}]}
+[2025-03-10 20:01:11] Warning: Zero memory usage for sample 8 on cpu
+[2025-03-10 20:01:11] System memory: 16085.17 MB total, 13894.80 MB used
+[2025-03-10 20:01:12] Sample 9 classification result on cpu: {"intent": {"label": "place_order", "confidence": 0.16075454652309418}, "category": {"label": "delivery", "confidence": 0.17070479691028595}, "ner": []}
+[2025-03-10 20:01:21] Warning: Zero memory usage for sample 9 on cpu
+[2025-03-10 20:01:21] System memory: 16085.17 MB total, 13774.23 MB used
+[2025-03-10 20:01:21] Sample 10 classification result on cpu: {"intent": {"label": "set_up_shipping_address", "confidence": 0.18670779466629028}, "category": {"label": "shipping", "confidence": 0.6253975629806519}, "ner": [{"entity": "shipping", "label": "account_category", "confidence": 0.39011892676353455}]}
+[2025-03-10 20:01:42] Warning: Zero memory usage for sample 10 on cpu
+[2025-03-10 20:01:42] System memory: 16085.17 MB total, 13907.71 MB used
+[2025-03-10 20:01:43] Sample 11 classification result on cpu: {"intent": {"label": "set_up_shipping_address", "confidence": 0.2823355495929718}, "category": {"label": "shipping", "confidence": 0.783279299736023}, "ner": [{"entity": "new", "label": "account_type", "confidence": 0.5191566348075867}, {"entity": "del", "label": "person_name", "confidence": 0.2667810618877411}]}
+[2025-03-10 20:02:13] Warning: Zero memory usage for sample 11 on cpu
+[2025-03-10 20:02:13] System memory: 16085.17 MB total, 13924.89 MB used
+[2025-03-10 20:02:14] Sample 12 classification result on cpu: {"intent": {"label": "check_payment_methods", "confidence": 0.3703554570674896}, "category": {"label": "payment", "confidence": 0.8130443692207336}, "ner": []}
+[2025-03-10 20:02:22] Warning: Zero memory usage for sample 12 on cpu
+[2025-03-10 20:02:22] System memory: 16085.17 MB total, 13894.11 MB used
+[2025-03-10 20:02:23] Sample 13 classification result on cpu: {"intent": {"label": "review", "confidence": 0.5230767130851746}, "category": {"label": "feedback", "confidence": 0.860671877861023}, "ner": []}
+[2025-03-10 20:02:31] Warning: Zero memory usage for sample 13 on cpu
+[2025-03-10 20:02:31] System memory: 16085.17 MB total, 13886.86 MB used
+[2025-03-10 20:02:31] Sample 14 classification result on cpu: {"intent": {"label": "create_account", "confidence": 0.4899155795574188}, "category": {"label": "account", "confidence": 0.9348122477531433}, "ner": [{"entity": "fre", "label": "person_name", "confidence": 0.17142973840236664}, {"entity": "ium", "label": "account_type", "confidence": 0.3450208008289337}, {"entity": "wife", "label": "account_type", "confidence": 0.24859191477298737}]}
+[2025-03-10 20:02:42] Warning: Zero memory usage for sample 14 on cpu
+[2025-03-10 20:02:42] System memory: 16085.17 MB total, 13907.66 MB used
+[2025-03-10 20:02:43] Sample 15 classification result on cpu: {"intent": {"label": "track_order", "confidence": 0.3951927423477173}, "category": {"label": "order", "confidence": 0.7822355628013611}, "ner": [{"entity": "ord-1135283", "label": "order_number", "confidence": 0.9804766535758972}]}
+[2025-03-10 20:02:55] Warning: Zero memory usage for sample 15 on cpu
+[2025-03-10 20:02:55] System memory: 16085.17 MB total, 13948.11 MB used
+[2025-03-10 20:02:55] Sample 16 classification result on cpu: {"intent": {"label": "check_payment_methods", "confidence": 0.20671556890010834}, "category": {"label": "payment", "confidence": 0.44479915499687195}, "ner": []}
+[2025-03-10 20:03:08] Warning: Zero memory usage for sample 16 on cpu
+[2025-03-10 20:03:08] System memory: 16085.17 MB total, 13938.45 MB used
+[2025-03-10 20:03:09] Sample 17 classification result on cpu: {"intent": {"label": "switch_account", "confidence": 0.1233656257390976}, "category": {"label": "account", "confidence": 0.18082572519779205}, "ner": [{"entity": "real", "label": "account_type", "confidence": 0.24802863597869873}, {"entity": "estate", "label": "account_category", "confidence": 0.6432812213897705}]}
+[2025-03-10 20:03:22] Warning: Zero memory usage for sample 17 on cpu
+[2025-03-10 20:03:22] System memory: 16085.17 MB total, 14100.48 MB used
+[2025-03-10 20:03:22] Sample 18 classification result on cpu: {"intent": {"label": "registration_problems", "confidence": 0.4842391908168793}, "category": {"label": "payment", "confidence": 0.41087716817855835}, "ner": [{"entity": "online", "label": "account_type", "confidence": 0.33580347895622253}]}
+[2025-03-10 20:03:34] Warning: Zero memory usage for sample 18 on cpu
+[2025-03-10 20:03:34] System memory: 16085.17 MB total, 14072.16 MB used
+[2025-03-10 20:03:34] Sample 19 classification result on cpu: {"intent": {"label": "create_account", "confidence": 0.2087658792734146}, "category": {"label": "account", "confidence": 0.6804514527320862}, "ner": [{"entity": "standard", "label": "account_type", "confidence": 0.6696047186851501}, {"entity": "acc", "label": "delivery_country", "confidence": 0.15285898745059967}, {"entity": "father", "label": "account_type", "confidence": 0.14213915169239044}]}
+[2025-03-10 20:03:46] Warning: Zero memory usage for sample 19 on cpu
+[2025-03-10 20:03:46] System memory: 16085.17 MB total, 13964.29 MB used
+[2025-03-10 20:03:46] Sample 20 classification result on cpu: {"intent": {"label": "delete_account", "confidence": 0.12966735661029816}, "category": {"label": "account", "confidence": 0.4132760167121887}, "ner": [{"entity": "inf", "label": "person_name", "confidence": 0.1965184360742569}, {"entity": "enterprise", "label": "account_type", "confidence": 0.8286491632461548}]}
+[2025-03-10 20:03:57] Warning: Zero memory usage for sample 20 on cpu
+[2025-03-10 20:03:57] System memory: 16085.17 MB total, 13995.94 MB used
+[2025-03-10 20:03:58] Sample 21 classification result on cpu: {"intent": {"label": "place_order", "confidence": 0.7790759801864624}, "category": {"label": "order", "confidence": 0.780108630657196}, "ner": []}
+[2025-03-10 20:04:05] Warning: Zero memory usage for sample 21 on cpu
+[2025-03-10 20:04:05] System memory: 16085.17 MB total, 14001.50 MB used
+[2025-03-10 20:04:06] Sample 22 classification result on cpu: {"intent": {"label": "track_order", "confidence": 0.5296458601951599}, "category": {"label": "order", "confidence": 0.9760146737098694}, "ner": [{"entity": "ord-6772250", "label": "order_number", "confidence": 0.9906835436820984}]}
+[2025-03-10 20:04:17] Warning: Zero memory usage for sample 22 on cpu
+[2025-03-10 20:04:17] System memory: 16085.17 MB total, 13786.00 MB used
+[2025-03-10 20:04:18] Sample 23 classification result on cpu: {"intent": {"label": "delete_account", "confidence": 0.22180011868476868}, "category": {"label": "account", "confidence": 0.7741872668266296}, "ner": [{"entity": "government", "label": "account_type", "confidence": 0.598401665687561}]}
+[2025-03-10 20:04:27] Warning: Zero memory usage for sample 23 on cpu
+[2025-03-10 20:04:27] System memory: 16085.17 MB total, 13827.49 MB used
+[2025-03-10 20:04:28] Sample 24 classification result on cpu: {"intent": {"label": "complaint", "confidence": 0.2859945595264435}, "category": {"label": "feedback", "confidence": 0.8462762236595154}, "ner": [{"entity": "consumer", "label": "account_type", "confidence": 0.522386372089386}]}
+[2025-03-10 20:04:35] Warning: Zero memory usage for sample 24 on cpu
+[2025-03-10 20:04:35] System memory: 16085.17 MB total, 13856.94 MB used
+[2025-03-10 20:04:35] Sample 25 classification result on cpu: {"intent": {"label": "track_order", "confidence": 0.48149463534355164}, "category": {"label": "order", "confidence": 0.9580598473548889}, "ner": [{"entity": "ord-3779640", "label": "order_number", "confidence": 0.9878963470458985}]}
+[2025-03-10 20:04:49] Warning: Zero memory usage for sample 25 on cpu
+[2025-03-10 20:04:49] System memory: 16085.17 MB total, 13947.24 MB used
+[2025-03-10 20:04:50] Sample 26 classification result on cpu: {"intent": {"label": "check_refund_policy", "confidence": 0.3195027709007263}, "category": {"label": "refund", "confidence": 0.616814374923706}, "ner": []}
+[2025-03-10 20:05:08] Warning: Zero memory usage for sample 26 on cpu
+[2025-03-10 20:05:08] System memory: 16085.17 MB total, 13940.34 MB used
+[2025-03-10 20:05:09] Sample 27 classification result on cpu: {"intent": {"label": "contact_customer_service", "confidence": 0.2733786106109619}, "category": {"label": "contact", "confidence": 0.519504964351654}, "ner": [{"entity": "customer", "label": "account_type", "confidence": 0.5467326641082764}]}
+[2025-03-10 20:05:20] Warning: Zero memory usage for sample 27 on cpu
+[2025-03-10 20:05:20] System memory: 16085.17 MB total, 14042.36 MB used
+[2025-03-10 20:05:20] Sample 28 classification result on cpu: {"intent": {"label": "review", "confidence": 0.1553545743227005}, "category": {"label": "feedback", "confidence": 0.3129240572452545}, "ner": [{"entity": "pro", "label": "account_type", "confidence": 0.13711000978946686}]}
+[2025-03-10 20:05:33] Warning: Zero memory usage for sample 28 on cpu
+[2025-03-10 20:05:33] System memory: 16085.17 MB total, 13964.36 MB used
+[2025-03-10 20:05:34] Sample 29 classification result on cpu: {"intent": {"label": "cancel_order", "confidence": 0.5839824080467224}, "category": {"label": "order", "confidence": 0.9725426435470581}, "ner": [{"entity": "ord-8227420", "label": "order_number", "confidence": 0.9884959657986959}]}
+[2025-03-10 20:05:44] Warning: Zero memory usage for sample 29 on cpu
+[2025-03-10 20:05:44] System memory: 16085.17 MB total, 13980.06 MB used
+[2025-03-10 20:05:44] Sample 30 classification result on cpu: {"intent": {"label": "cancel_order", "confidence": 0.5656915903091431}, "category": {"label": "order", "confidence": 0.9232650399208069}, "ner": [{"entity": "ord-8042947", "label": "order_number", "confidence": 0.968000340461731}]}
+[2025-03-10 20:05:53] Warning: Zero memory usage for sample 30 on cpu
+[2025-03-10 20:05:53] System memory: 16085.17 MB total, 14134.82 MB used
+[2025-03-10 20:05:54] Sample 31 classification result on cpu: {"intent": {"label": "get_invoice", "confidence": 0.22655430436134338}, "category": {"label": "invoice", "confidence": 0.7122964859008789}, "ner": [{"entity": "#", "label": "refund_amount", "confidence": 0.24311229586601257}]}
+[2025-03-10 20:06:15] Warning: Zero memory usage for sample 31 on cpu
+[2025-03-10 20:06:15] System memory: 16085.17 MB total, 14333.54 MB used
+[2025-03-10 20:06:15] Sample 32 classification result on cpu: {"intent": {"label": "track_order", "confidence": 0.34240615367889404}, "category": {"label": "order", "confidence": 0.9338838458061218}, "ner": [{"entity": "ord-0521414", "label": "order_number", "confidence": 0.9846315264701844}]}
+[2025-03-10 20:06:25] Warning: Zero memory usage for sample 32 on cpu
+[2025-03-10 20:06:25] System memory: 16085.17 MB total, 14382.53 MB used
+[2025-03-10 20:06:26] Sample 33 classification result on cpu: {"intent": {"label": "get_refund", "confidence": 0.2567027807235718}, "category": {"label": "refund", "confidence": 0.7023764848709106}, "ner": []}
+[2025-03-10 20:06:39] Warning: Zero memory usage for sample 33 on cpu
+[2025-03-10 20:06:39] System memory: 16085.17 MB total, 14400.71 MB used
+[2025-03-10 20:06:40] Sample 34 classification result on cpu: {"intent": {"label": "delivery_options", "confidence": 0.2081701159477234}, "category": {"label": "delivery", "confidence": 0.5221866965293884}, "ner": []}
+[2025-03-10 20:07:09] Warning: Zero memory usage for sample 34 on cpu
+[2025-03-10 20:07:09] System memory: 16085.17 MB total, 14056.74 MB used
+[2025-03-10 20:07:09] Sample 35 classification result on cpu: {"intent": {"label": "set_up_shipping_address", "confidence": 0.1348457634449005}, "category": {"label": "shipping", "confidence": 0.4588942527770996}, "ner": []}
+[2025-03-10 20:07:16] Warning: Zero memory usage for sample 35 on cpu
+[2025-03-10 20:07:16] System memory: 16085.17 MB total, 14218.61 MB used
+[2025-03-10 20:07:17] Sample 36 classification result on cpu: {"intent": {"label": "check_refund_policy", "confidence": 0.3449886739253998}, "category": {"label": "refund", "confidence": 0.46554964780807495}, "ner": []}
+[2025-03-10 20:07:37] Warning: Zero memory usage for sample 36 on cpu
+[2025-03-10 20:07:37] System memory: 16085.17 MB total, 14285.70 MB used
+[2025-03-10 20:07:38] Sample 37 classification result on cpu: {"intent": {"label": "contact_human_agent", "confidence": 0.39063677191734314}, "category": {"label": "contact", "confidence": 0.697363018989563}, "ner": [{"entity": "mke", "label": "person_name", "confidence": 0.1932021751999855}]}
+[2025-03-10 20:07:48] Warning: Zero memory usage for sample 37 on cpu
+[2025-03-10 20:07:48] System memory: 16085.17 MB total, 14343.16 MB used
+[2025-03-10 20:07:48] Sample 38 classification result on cpu: {"intent": {"label": "change_shipping_address", "confidence": 0.5939701795578003}, "category": {"label": "shipping", "confidence": 0.9212825298309326}, "ner": [{"entity": "shipping", "label": "account_category", "confidence": 0.414623498916626}]}
+[2025-03-10 20:08:00] Warning: Zero memory usage for sample 38 on cpu
+[2025-03-10 20:08:00] System memory: 16085.17 MB total, 14274.47 MB used
+[2025-03-10 20:08:01] Sample 39 classification result on cpu: {"intent": {"label": "change_order", "confidence": 0.479540079832077}, "category": {"label": "order", "confidence": 0.9602566361427307}, "ner": [{"entity": "w", "label": "currency_symbol", "confidence": 0.18037308752536774}, {"entity": "ord-9073141", "label": "order_number", "confidence": 0.9746359984079996}]}
+[2025-03-10 20:08:13] Warning: Zero memory usage for sample 39 on cpu
+[2025-03-10 20:08:13] System memory: 16085.17 MB total, 14326.18 MB used
+[2025-03-10 20:08:13] Sample 40 classification result on cpu: {"intent": {"label": "place_order", "confidence": 0.46438002586364746}, "category": {"label": "order", "confidence": 0.29288163781166077}, "ner": []}
+[2025-03-10 20:08:36] Warning: Zero memory usage for sample 40 on cpu
+[2025-03-10 20:08:36] System memory: 16085.17 MB total, 14291.49 MB used
+[2025-03-10 20:08:37] Sample 41 classification result on cpu: {"intent": {"label": "change_shipping_address", "confidence": 0.1226685419678688}, "category": {"label": "shipping", "confidence": 0.3376966416835785}, "ner": []}
+[2025-03-10 20:08:54] Warning: Zero memory usage for sample 41 on cpu
+[2025-03-10 20:08:54] System memory: 16085.17 MB total, 14236.20 MB used
+[2025-03-10 20:08:54] Sample 42 classification result on cpu: {"intent": {"label": "track_order", "confidence": 0.4790880084037781}, "category": {"label": "order", "confidence": 0.9921019673347473}, "ner": [{"entity": "ord-9186353 status", "label": "order_number", "confidence": 0.9188383320967356}]}
+[2025-03-10 20:09:06] Warning: Zero memory usage for sample 42 on cpu
+[2025-03-10 20:09:06] System memory: 16085.17 MB total, 14232.97 MB used
+[2025-03-10 20:09:06] Sample 43 classification result on cpu: {"intent": {"label": "complaint", "confidence": 0.3954868018627167}, "category": {"label": "feedback", "confidence": 0.8358936309814453}, "ner": [{"entity": "business", "label": "account_type", "confidence": 0.3160267770290375}]}
+[2025-03-10 20:09:22] Warning: Zero memory usage for sample 43 on cpu
+[2025-03-10 20:09:22] System memory: 16085.17 MB total, 14038.49 MB used
+[2025-03-10 20:09:23] Sample 44 classification result on cpu: {"intent": {"label": "check_refund_policy", "confidence": 0.2778432071208954}, "category": {"label": "refund", "confidence": 0.6387556195259094}, "ner": []}
+[2025-03-10 20:10:15] Warning: Zero memory usage for sample 44 on cpu
+[2025-03-10 20:10:15] System memory: 16085.17 MB total, 13992.31 MB used
+[2025-03-10 20:10:16] Sample 45 classification result on cpu: {"intent": {"label": "payment_issue", "confidence": 0.4139965772628784}, "category": {"label": "payment", "confidence": 0.8458155989646912}, "ner": []}
+[2025-03-10 20:10:28] Warning: Zero memory usage for sample 45 on cpu
+[2025-03-10 20:10:28] System memory: 16085.17 MB total, 14145.89 MB used
+[2025-03-10 20:10:28] Sample 46 classification result on cpu: {"intent": {"label": "registration_problems", "confidence": 0.39155229926109314}, "category": {"label": "payment", "confidence": 0.5565758943557739}, "ner": []}
+[2025-03-10 20:10:52] Warning: Zero memory usage for sample 46 on cpu
+[2025-03-10 20:10:52] System memory: 16085.17 MB total, 14331.32 MB used
+[2025-03-10 20:10:54] Sample 47 classification result on cpu: {"intent": {"label": "newsletter_subscription", "confidence": 0.22041770815849304}, "category": {"label": "subscription", "confidence": 0.4825989305973053}, "ner": [{"entity": "platinum", "label": "account_type", "confidence": 0.44052210450172424}]}
+[2025-03-10 20:11:28] Warning: Zero memory usage for sample 47 on cpu
+[2025-03-10 20:11:28] System memory: 16085.17 MB total, 14866.48 MB used
+[2025-03-10 20:11:29] Sample 48 classification result on cpu: {"intent": {"label": "review", "confidence": 0.24388760328292847}, "category": {"label": "feedback", "confidence": 0.581636905670166}, "ner": [{"entity": "ab", "label": "person_name", "confidence": 0.2506488263607025}]}
+[2025-03-10 20:12:00] Warning: Zero memory usage for sample 48 on cpu
+[2025-03-10 20:12:00] System memory: 16085.17 MB total, 15065.23 MB used
+[2025-03-10 20:12:02] Sample 49 classification result on cpu: {"intent": {"label": "track_order", "confidence": 0.44533297419548035}, "category": {"label": "order", "confidence": 0.9819838404655457}, "ner": [{"entity": "ord-8335461", "label": "order_number", "confidence": 0.9770483493804931}]}
+[2025-03-10 20:12:37] Warning: Zero memory usage for sample 49 on cpu
+[2025-03-10 20:12:37] System memory: 16085.17 MB total, 14459.51 MB used
+[2025-03-10 20:12:38] Sample 50 classification result on cpu: {"intent": {"label": "review", "confidence": 0.2038612961769104}, "category": {"label": "feedback", "confidence": 0.308356910943985}, "ner": [{"entity": "produ", "label": "person_name", "confidence": 0.13884146511554718}]}
+[2025-03-10 20:13:07] Warning: Zero memory usage for sample 50 on cpu
+[2025-03-10 20:13:07] System memory: 16085.17 MB total, 14500.37 MB used
+[2025-03-10 20:13:07] Results saved to performance_results_cpu.json
+[2025-03-10 20:13:08] Models moved to cuda
+[2025-03-10 20:13:30] Sample 1 classification result on cuda: {"intent": {"label": "get_invoice", "confidence": 0.19567587971687317}, "category": {"label": "invoice", "confidence": 0.5679298043251038}, "ner": [{"entity": "#", "label": "refund_amount", "confidence": 0.23125988245010376}]}
+[2025-03-10 20:13:40] Sample 2 classification result on cuda: {"intent": {"label": "create_account", "confidence": 0.16891758143901825}, "category": {"label": "account", "confidence": 0.5455471873283386}, "ner": [{"entity": "live", "label": "account_type", "confidence": 0.3362630605697632}, {"entity": "agent", "label": "account_type", "confidence": 0.3015402853488922}]}
+[2025-03-10 20:13:43] Sample 3 classification result on cuda: {"intent": {"label": "delivery_period", "confidence": 0.3167915344238281}, "category": {"label": "delivery", "confidence": 0.4336242973804474}, "ner": []}
+[2025-03-10 20:13:48] Sample 4 classification result on cuda: {"intent": {"label": "contact_customer_service", "confidence": 0.3563598096370697}, "category": {"label": "contact", "confidence": 0.7082335352897644}, "ner": [{"entity": "customer", "label": "account_type", "confidence": 0.4194631278514862}]}
+[2025-03-10 20:13:52] Sample 5 classification result on cuda: {"intent": {"label": "switch_account", "confidence": 0.10647442191839218}, "category": {"label": "account", "confidence": 0.18986928462982178}, "ner": [{"entity": "sw", "label": "person_name", "confidence": 0.256960928440094}, {"entity": "premium", "label": "account_type", "confidence": 0.6151847243309021}]}
+[2025-03-10 20:13:55] Sample 6 classification result on cuda: {"intent": {"label": "recover_password", "confidence": 0.775461733341217}, "category": {"label": "account", "confidence": 0.8280243873596191}, "ner": [{"entity": "user", "label": "account_type", "confidence": 0.6120876669883728}]}
+[2025-03-10 20:14:07] Sample 7 classification result on cuda: {"intent": {"label": "check_invoice", "confidence": 0.2138909250497818}, "category": {"label": "invoice", "confidence": 0.7948861718177795}, "ner": []}
+[2025-03-10 20:14:09] Sample 8 classification result on cuda: {"intent": {"label": "set_up_shipping_address", "confidence": 0.4039682447910309}, "category": {"label": "shipping", "confidence": 0.8360442519187927}, "ner": [{"entity": "delivery", "label": "account_category", "confidence": 0.5240317583084106}]}
+[2025-03-10 20:14:12] Sample 9 classification result on cuda: {"intent": {"label": "place_order", "confidence": 0.16075459122657776}, "category": {"label": "delivery", "confidence": 0.17070473730564117}, "ner": []}
+[2025-03-10 20:14:23] Sample 10 classification result on cuda: {"intent": {"label": "set_up_shipping_address", "confidence": 0.1867077499628067}, "category": {"label": "shipping", "confidence": 0.6253975629806519}, "ner": [{"entity": "shipping", "label": "account_category", "confidence": 0.39011910557746887}]}
+[2025-03-10 20:14:28] Warning: Zero memory usage for sample 10 on cuda
+[2025-03-10 20:14:28] System memory: 16085.17 MB total, 13484.77 MB used
+[2025-03-10 20:14:28] GPU memory stats: |===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 0                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      |    990 MiB |    990 MiB |   1646 GiB |   1645 GiB |
+|       from large pool |    965 MiB |    965 MiB |   1345 GiB |   1344 GiB |
+|       from small pool |     25 MiB |     25 MiB |    301 GiB |    301 GiB |
+|---------------------------------------------------------------------------|
+| Active memory         |    990 MiB |    990 MiB |   1646 GiB |   1645 GiB |
+|       from large pool |    965 MiB |    965 MiB |   1345 GiB |   1344 GiB |
+|       from small pool |     25 MiB |     25 MiB |    301 GiB |    301 GiB |
+|---------------------------------------------------------------------------|
+| Requested memory      |    988 MiB |    988 MiB |   1525 GiB |   1524 GiB |
+|       from large pool |    963 MiB |    963 MiB |   1224 GiB |   1223 GiB |
+|       from small pool |     25 MiB |     25 MiB |    300 GiB |    300 GiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |   1422 MiB |   1422 MiB |  19658 MiB |  18236 MiB |
+|       from large pool |   1388 MiB |   1388 MiB |  15498 MiB |  14110 MiB |
+|       from small pool |     34 MiB |     34 MiB |   4160 MiB |   4126 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |  93578 KiB |  93578 KiB |   2147 GiB |   2147 GiB |
+|       from large pool |  92672 KiB |  92672 KiB |   1835 GiB |   1835 GiB |
+|       from small pool |    906 KiB |    906 KiB |    311 GiB |    311 GiB |
+|---------------------------------------------------------------------------|
+| Allocations           |     357    |     357    |    6714 K  |    6713 K  |
+|       from large pool |     104    |     104    |     614 K  |     614 K  |
+|       from small pool |     253    |     253    |    6099 K  |    6099 K  |
+|---------------------------------------------------------------------------|
+| Active allocs         |     357    |     357    |    6714 K  |    6713 K  |
+|       from large pool |     104    |     104    |     614 K  |     614 K  |
+|       from small pool |     253    |     253    |    6099 K  |    6099 K  |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |      70    |      70    |    2670    |    2600    |
+|       from large pool |      53    |      53    |     590    |     537    |
+|       from small pool |      17    |      17    |    2080    |    2063    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |      39    |      39    |    3265 K  |    3265 K  |
+|       from large pool |      38    |      38    |     303 K  |     303 K  |
+|       from small pool |       1    |       1    |    2961 K  |    2961 K  |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+
+[2025-03-10 20:14:29] Sample 11 classification result on cuda: {"intent": {"label": "set_up_shipping_address", "confidence": 0.2823356091976166}, "category": {"label": "shipping", "confidence": 0.7832790017127991}, "ner": [{"entity": "new", "label": "account_type", "confidence": 0.519156813621521}, {"entity": "del", "label": "person_name", "confidence": 0.2667810618877411}]}
+[2025-03-10 20:14:37] Warning: Zero memory usage for sample 11 on cuda
+[2025-03-10 20:14:37] System memory: 16085.17 MB total, 13478.45 MB used
+[2025-03-10 20:14:37] GPU memory stats: |===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 0                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      |    990 MiB |    990 MiB |   1674 GiB |   1673 GiB |
+|       from large pool |    965 MiB |    965 MiB |   1369 GiB |   1368 GiB |
+|       from small pool |     25 MiB |     25 MiB |    304 GiB |    304 GiB |
+|---------------------------------------------------------------------------|
+| Active memory         |    990 MiB |    990 MiB |   1674 GiB |   1673 GiB |
+|       from large pool |    965 MiB |    965 MiB |   1369 GiB |   1368 GiB |
+|       from small pool |     25 MiB |     25 MiB |    304 GiB |    304 GiB |
+|---------------------------------------------------------------------------|
+| Requested memory      |    988 MiB |    988 MiB |   1552 GiB |   1551 GiB |
+|       from large pool |    963 MiB |    963 MiB |   1248 GiB |   1247 GiB |
+|       from small pool |     25 MiB |     25 MiB |    303 GiB |    303 GiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |   1412 MiB |   1412 MiB |  19988 MiB |  18576 MiB |
+|       from large pool |   1378 MiB |   1378 MiB |  15820 MiB |  14442 MiB |
+|       from small pool |     34 MiB |     34 MiB |   4168 MiB |   4134 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |  93578 KiB |  93578 KiB |   2186 GiB |   2186 GiB |
+|       from large pool |  92672 KiB |  92672 KiB |   1871 GiB |   1871 GiB |
+|       from small pool |    906 KiB |    906 KiB |    314 GiB |    314 GiB |
+|---------------------------------------------------------------------------|
+| Allocations           |     357    |     357    |    6800 K  |    6800 K  |
+|       from large pool |     104    |     104    |     623 K  |     623 K  |
+|       from small pool |     253    |     253    |    6177 K  |    6177 K  |
+|---------------------------------------------------------------------------|
+| Active allocs         |     357    |     357    |    6800 K  |    6800 K  |
+|       from large pool |     104    |     104    |     623 K  |     623 K  |
+|       from small pool |     253    |     253    |    6177 K  |    6177 K  |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |      69    |      69    |    2686    |    2617    |
+|       from large pool |      52    |      52    |     602    |     550    |
+|       from small pool |      17    |      17    |    2084    |    2067    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |      39    |      39    |    3306 K  |    3306 K  |
+|       from large pool |      38    |      38    |     305 K  |     305 K  |
+|       from small pool |       1    |       1    |    3000 K  |    3000 K  |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+
+[2025-03-10 20:14:38] Sample 12 classification result on cuda: {"intent": {"label": "check_payment_methods", "confidence": 0.3703555166721344}, "category": {"label": "payment", "confidence": 0.8130441904067993}, "ner": []}
+[2025-03-10 20:14:39] Warning: Zero memory usage for sample 12 on cuda
+[2025-03-10 20:14:40] System memory: 16085.17 MB total, 13484.21 MB used
+[2025-03-10 20:14:40] GPU memory stats: |===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 0                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      |    990 MiB |    990 MiB |   1684 GiB |   1683 GiB |
+|       from large pool |    965 MiB |    965 MiB |   1377 GiB |   1376 GiB |
+|       from small pool |     25 MiB |     25 MiB |    306 GiB |    306 GiB |
+|---------------------------------------------------------------------------|
+| Active memory         |    990 MiB |    990 MiB |   1684 GiB |   1683 GiB |
+|       from large pool |    965 MiB |    965 MiB |   1377 GiB |   1376 GiB |
+|       from small pool |     25 MiB |     25 MiB |    306 GiB |    306 GiB |
+|---------------------------------------------------------------------------|
+| Requested memory      |    988 MiB |    988 MiB |   1561 GiB |   1560 GiB |
+|       from large pool |    963 MiB |    963 MiB |   1255 GiB |   1255 GiB |
+|       from small pool |     25 MiB |     25 MiB |    305 GiB |    305 GiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |   1266 MiB |   1266 MiB |  20172 MiB |  18906 MiB |
+|       from large pool |   1232 MiB |   1232 MiB |  15996 MiB |  14764 MiB |
+|       from small pool |     34 MiB |     34 MiB |   4176 MiB |   4142 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |  93578 KiB |  93578 KiB |   2197 GiB |   2197 GiB |
+|       from large pool |  92672 KiB |  92672 KiB |   1880 GiB |   1880 GiB |
+|       from small pool |    906 KiB |    906 KiB |    316 GiB |    316 GiB |
+|---------------------------------------------------------------------------|
+| Allocations           |     357    |     357    |    6841 K  |    6840 K  |
+|       from large pool |     104    |     104    |     627 K  |     627 K  |
+|       from small pool |     253    |     253    |    6213 K  |    6213 K  |
+|---------------------------------------------------------------------------|
+| Active allocs         |     357    |     357    |    6841 K  |    6840 K  |
+|       from large pool |     104    |     104    |     627 K  |     627 K  |
+|       from small pool |     253    |     253    |    6213 K  |    6213 K  |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |      63    |      63    |    2696    |    2633    |
+|       from large pool |      46    |      46    |     608    |     562    |
+|       from small pool |      17    |      17    |    2088    |    2071    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |      39    |      39    |    3325 K  |    3325 K  |
+|       from large pool |      38    |      38    |     308 K  |     308 K  |
+|       from small pool |       1    |       1    |    3017 K  |    3017 K  |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+
+[2025-03-10 20:14:40] Sample 13 classification result on cuda: {"intent": {"label": "review", "confidence": 0.5230767130851746}, "category": {"label": "feedback", "confidence": 0.8606722354888916}, "ner": []}
+[2025-03-10 20:14:41] Warning: Zero memory usage for sample 13 on cuda
+[2025-03-10 20:14:41] System memory: 16085.17 MB total, 13461.23 MB used
+[2025-03-10 20:14:41] GPU memory stats: |===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 0                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      |    990 MiB |    990 MiB |   1691 GiB |   1690 GiB |
+|       from large pool |    965 MiB |    965 MiB |   1384 GiB |   1383 GiB |
+|       from small pool |     25 MiB |     25 MiB |    307 GiB |    307 GiB |
+|---------------------------------------------------------------------------|
+| Active memory         |    990 MiB |    990 MiB |   1691 GiB |   1690 GiB |
+|       from large pool |    965 MiB |    965 MiB |   1384 GiB |   1383 GiB |
+|       from small pool |     25 MiB |     25 MiB |    307 GiB |    307 GiB |
+|---------------------------------------------------------------------------|
+| Requested memory      |    988 MiB |    988 MiB |   1567 GiB |   1566 GiB |
+|       from large pool |    963 MiB |    963 MiB |   1261 GiB |   1260 GiB |
+|       from small pool |     25 MiB |     25 MiB |    306 GiB |    306 GiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |   1198 MiB |   1198 MiB |  20288 MiB |  19090 MiB |
+|       from large pool |   1164 MiB |   1164 MiB |  16104 MiB |  14940 MiB |
+|       from small pool |     34 MiB |     34 MiB |   4184 MiB |   4150 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |  93578 KiB |  93578 KiB |   2205 GiB |   2205 GiB |
+|       from large pool |  92672 KiB |  92672 KiB |   1887 GiB |   1887 GiB |
+|       from small pool |    906 KiB |    906 KiB |    317 GiB |    317 GiB |
+|---------------------------------------------------------------------------|
+| Allocations           |     357    |     357    |    6872 K  |    6872 K  |
+|       from large pool |     104    |     104    |     630 K  |     630 K  |
+|       from small pool |     253    |     253    |    6241 K  |    6241 K  |
+|---------------------------------------------------------------------------|
+| Active allocs         |     357    |     357    |    6872 K  |    6872 K  |
+|       from large pool |     104    |     104    |     630 K  |     630 K  |
+|       from small pool |     253    |     253    |    6241 K  |    6241 K  |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |      60    |      60    |    2703    |    2643    |
+|       from large pool |      43    |      43    |     611    |     568    |
+|       from small pool |      17    |      17    |    2092    |    2075    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |      39    |      39    |    3341 K  |    3341 K  |
+|       from large pool |      38    |      38    |     310 K  |     310 K  |
+|       from small pool |       1    |       1    |    3031 K  |    3031 K  |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+
+[2025-03-10 20:14:42] Sample 14 classification result on cuda: {"intent": {"label": "create_account", "confidence": 0.4899156391620636}, "category": {"label": "account", "confidence": 0.9348122477531433}, "ner": [{"entity": "fre", "label": "person_name", "confidence": 0.1714298129081726}, {"entity": "ium", "label": "account_type", "confidence": 0.34502118825912476}, {"entity": "wife", "label": "account_type", "confidence": 0.24859176576137543}]}
+[2025-03-10 20:14:50] Warning: Zero memory usage for sample 14 on cuda
+[2025-03-10 20:14:50] System memory: 16085.17 MB total, 13464.89 MB used
+[2025-03-10 20:14:50] GPU memory stats: |===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 0                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      |    990 MiB |    990 MiB |   1704 GiB |   1703 GiB |
+|       from large pool |    965 MiB |    965 MiB |   1395 GiB |   1394 GiB |
+|       from small pool |     25 MiB |     25 MiB |    309 GiB |    309 GiB |
+|---------------------------------------------------------------------------|
+| Active memory         |    990 MiB |    990 MiB |   1704 GiB |   1703 GiB |
+|       from large pool |    965 MiB |    965 MiB |   1395 GiB |   1394 GiB |
+|       from small pool |     25 MiB |     25 MiB |    309 GiB |    309 GiB |
+|---------------------------------------------------------------------------|
+| Requested memory      |    988 MiB |    988 MiB |   1579 GiB |   1578 GiB |
+|       from large pool |    963 MiB |    963 MiB |   1272 GiB |   1271 GiB |
+|       from small pool |     25 MiB |     25 MiB |    307 GiB |    307 GiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |   1312 MiB |   1312 MiB |  20518 MiB |  19206 MiB |
+|       from large pool |   1278 MiB |   1278 MiB |  16326 MiB |  15048 MiB |
+|       from small pool |     34 MiB |     34 MiB |   4192 MiB |   4158 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |  93578 KiB |  93578 KiB |   2222 GiB |   2222 GiB |
+|       from large pool |  92672 KiB |  92672 KiB |   1903 GiB |   1902 GiB |
+|       from small pool |    906 KiB |    906 KiB |    319 GiB |    319 GiB |
+|---------------------------------------------------------------------------|
+| Allocations           |     357    |     357    |    6920 K  |    6919 K  |
+|       from large pool |     104    |     104    |     635 K  |     635 K  |
+|       from small pool |     253    |     253    |    6284 K  |    6284 K  |
+|---------------------------------------------------------------------------|
+| Active allocs         |     357    |     357    |    6920 K  |    6919 K  |
+|       from large pool |     104    |     104    |     635 K  |     635 K  |
+|       from small pool |     253    |     253    |    6284 K  |    6284 K  |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |      64    |      64    |    2714    |    2650    |
+|       from large pool |      47    |      47    |     618    |     571    |
+|       from small pool |      17    |      17    |    2096    |    2079    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |      39    |      39    |    3364 K  |    3364 K  |
+|       from large pool |      38    |      38    |     312 K  |     312 K  |
+|       from small pool |       1    |       1    |    3052 K  |    3052 K  |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+
+[2025-03-10 20:14:50] Sample 15 classification result on cuda: {"intent": {"label": "track_order", "confidence": 0.39519280195236206}, "category": {"label": "order", "confidence": 0.782235860824585}, "ner": [{"entity": "ord-1135283", "label": "order_number", "confidence": 0.9804766416549683}]}
+[2025-03-10 20:14:53] Warning: Zero memory usage for sample 15 on cuda
+[2025-03-10 20:14:53] System memory: 16085.17 MB total, 13465.67 MB used
+[2025-03-10 20:14:53] GPU memory stats: |===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 0                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      |    990 MiB |    990 MiB |   1717 GiB |   1716 GiB |
+|       from large pool |    965 MiB |    965 MiB |   1406 GiB |   1405 GiB |
+|       from small pool |     25 MiB |     25 MiB |    310 GiB |    310 GiB |
+|---------------------------------------------------------------------------|
+| Active memory         |    990 MiB |    990 MiB |   1717 GiB |   1716 GiB |
+|       from large pool |    965 MiB |    965 MiB |   1406 GiB |   1405 GiB |
+|       from small pool |     25 MiB |     25 MiB |    310 GiB |    310 GiB |
+|---------------------------------------------------------------------------|
+| Requested memory      |    988 MiB |    988 MiB |   1592 GiB |   1591 GiB |
+|       from large pool |    963 MiB |    963 MiB |   1282 GiB |   1281 GiB |
+|       from small pool |     25 MiB |     25 MiB |    309 GiB |    309 GiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |   1282 MiB |   1282 MiB |  20718 MiB |  19436 MiB |
+|       from large pool |   1248 MiB |   1248 MiB |  16518 MiB |  15270 MiB |
+|       from small pool |     34 MiB |     34 MiB |   4200 MiB |   4166 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |  93578 KiB |  93578 KiB |   2238 GiB |   2238 GiB |
+|       from large pool |  92672 KiB |  92672 KiB |   1917 GiB |   1917 GiB |
+|       from small pool |    906 KiB |    906 KiB |    321 GiB |    321 GiB |
+|---------------------------------------------------------------------------|
+| Allocations           |     357    |     357    |    6970 K  |    6969 K  |
+|       from large pool |     104    |     104    |     640 K  |     640 K  |
+|       from small pool |     253    |     253    |    6329 K  |    6328 K  |
+|---------------------------------------------------------------------------|
+| Active allocs         |     357    |     357    |    6970 K  |    6969 K  |
+|       from large pool |     104    |     104    |     640 K  |     640 K  |
+|       from small pool |     253    |     253    |    6329 K  |    6328 K  |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |      63    |      63    |    2724    |    2661    |
+|       from large pool |      46    |      46    |     624    |     578    |
+|       from small pool |      17    |      17    |    2100    |    2083    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |      39    |      39    |    3388 K  |    3388 K  |
+|       from large pool |      38    |      38    |     314 K  |     314 K  |
+|       from small pool |       1    |       1    |    3074 K  |    3074 K  |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+
+[2025-03-10 20:14:53] Sample 16 classification result on cuda: {"intent": {"label": "check_payment_methods", "confidence": 0.20671583712100983}, "category": {"label": "payment", "confidence": 0.44479915499687195}, "ner": []}
+[2025-03-10 20:14:56] Warning: Zero memory usage for sample 16 on cuda
+[2025-03-10 20:14:56] System memory: 16085.17 MB total, 13494.02 MB used
+[2025-03-10 20:14:56] GPU memory stats: |===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 0                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      |    990 MiB |    990 MiB |   1731 GiB |   1730 GiB |
+|       from large pool |    965 MiB |    965 MiB |   1418 GiB |   1417 GiB |
+|       from small pool |     25 MiB |     25 MiB |    312 GiB |    312 GiB |
+|---------------------------------------------------------------------------|
+| Active memory         |    990 MiB |    990 MiB |   1731 GiB |   1730 GiB |
+|       from large pool |    965 MiB |    965 MiB |   1418 GiB |   1417 GiB |
+|       from small pool |     25 MiB |     25 MiB |    312 GiB |    312 GiB |
+|---------------------------------------------------------------------------|
+| Requested memory      |    988 MiB |    988 MiB |   1605 GiB |   1604 GiB |
+|       from large pool |    963 MiB |    963 MiB |   1293 GiB |   1292 GiB |
+|       from small pool |     25 MiB |     25 MiB |    311 GiB |    311 GiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |   1286 MiB |   1286 MiB |  20922 MiB |  19636 MiB |
+|       from large pool |   1252 MiB |   1252 MiB |  16714 MiB |  15462 MiB |
+|       from small pool |     34 MiB |     34 MiB |   4208 MiB |   4174 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |  93578 KiB |  93578 KiB |   2257 GiB |   2257 GiB |
+|       from large pool |  92672 KiB |  92672 KiB |   1933 GiB |   1933 GiB |
+|       from small pool |    906 KiB |    906 KiB |    323 GiB |    323 GiB |
+|---------------------------------------------------------------------------|
+| Allocations           |     357    |     357    |    7025 K  |    7025 K  |
+|       from large pool |     104    |     104    |     646 K  |     646 K  |
+|       from small pool |     253    |     253    |    6378 K  |    6378 K  |
+|---------------------------------------------------------------------------|
+| Active allocs         |     357    |     357    |    7025 K  |    7025 K  |
+|       from large pool |     104    |     104    |     646 K  |     646 K  |
+|       from small pool |     253    |     253    |    6378 K  |    6378 K  |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |      64    |      64    |    2735    |    2671    |
+|       from large pool |      47    |      47    |     631    |     584    |
+|       from small pool |      17    |      17    |    2104    |    2087    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |      39    |      39    |    3415 K  |    3415 K  |
+|       from large pool |      38    |      38    |     317 K  |     317 K  |
+|       from small pool |       1    |       1    |    3098 K  |    3098 K  |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+
+[2025-03-10 20:14:56] Sample 17 classification result on cuda: {"intent": {"label": "switch_account", "confidence": 0.12336556613445282}, "category": {"label": "account", "confidence": 0.1808256208896637}, "ner": [{"entity": "real", "label": "account_type", "confidence": 0.24802854657173157}, {"entity": "estate", "label": "account_category", "confidence": 0.6432812809944153}]}
+[2025-03-10 20:15:00] Warning: Zero memory usage for sample 17 on cuda
+[2025-03-10 20:15:01] System memory: 16085.17 MB total, 13515.14 MB used
+[2025-03-10 20:15:01] GPU memory stats: |===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 0                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      |    990 MiB |    990 MiB |   1761 GiB |   1760 GiB |
+|       from large pool |    965 MiB |    965 MiB |   1445 GiB |   1444 GiB |
+|       from small pool |     25 MiB |     25 MiB |    316 GiB |    316 GiB |
+|---------------------------------------------------------------------------|
+| Active memory         |    990 MiB |    990 MiB |   1761 GiB |   1760 GiB |
+|       from large pool |    965 MiB |    965 MiB |   1445 GiB |   1444 GiB |
+|       from small pool |     25 MiB |     25 MiB |    316 GiB |    316 GiB |
+|---------------------------------------------------------------------------|
+| Requested memory      |    988 MiB |    988 MiB |   1634 GiB |   1633 GiB |
+|       from large pool |    963 MiB |    963 MiB |   1319 GiB |   1318 GiB |
+|       from small pool |     25 MiB |     25 MiB |    315 GiB |    315 GiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |   1426 MiB |   1426 MiB |  21266 MiB |  19840 MiB |
+|       from large pool |   1392 MiB |   1392 MiB |  17050 MiB |  15658 MiB |
+|       from small pool |     34 MiB |     34 MiB |   4216 MiB |   4182 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |  93578 KiB |  93578 KiB |   2300 GiB |   2300 GiB |
+|       from large pool |  92672 KiB |  92672 KiB |   1973 GiB |   1973 GiB |
+|       from small pool |    906 KiB |    906 KiB |    326 GiB |    326 GiB |
+|---------------------------------------------------------------------------|
+| Allocations           |     357    |     357    |    7120 K  |    7119 K  |
+|       from large pool |     104    |     104    |     655 K  |     655 K  |
+|       from small pool |     253    |     253    |    6464 K  |    6464 K  |
+|---------------------------------------------------------------------------|
+| Active allocs         |     357    |     357    |    7120 K  |    7119 K  |
+|       from large pool |     104    |     104    |     655 K  |     655 K  |
+|       from small pool |     253    |     253    |    6464 K  |    6464 K  |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |      70    |      70    |    2752    |    2682    |
+|       from large pool |      53    |      53    |     644    |     591    |
+|       from small pool |      17    |      17    |    2108    |    2091    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |      39    |      39    |    3462 K  |    3461 K  |
+|       from large pool |      38    |      38    |     319 K  |     319 K  |
+|       from small pool |       1    |       1    |    3142 K  |    3142 K  |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+
+[2025-03-10 20:15:01] Sample 18 classification result on cuda: {"intent": {"label": "registration_problems", "confidence": 0.484239399433136}, "category": {"label": "payment", "confidence": 0.41087719798088074}, "ner": [{"entity": "online", "label": "account_type", "confidence": 0.3358035683631897}]}
+[2025-03-10 20:15:03] Warning: Zero memory usage for sample 18 on cuda
+[2025-03-10 20:15:03] System memory: 16085.17 MB total, 13522.94 MB used
+[2025-03-10 20:15:03] GPU memory stats: |===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 0                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      |    990 MiB |    990 MiB |   1770 GiB |   1769 GiB |
+|       from large pool |    965 MiB |    965 MiB |   1453 GiB |   1452 GiB |
+|       from small pool |     25 MiB |     25 MiB |    317 GiB |    317 GiB |
+|---------------------------------------------------------------------------|
+| Active memory         |    990 MiB |    990 MiB |   1770 GiB |   1769 GiB |
+|       from large pool |    965 MiB |    965 MiB |   1453 GiB |   1452 GiB |
+|       from small pool |     25 MiB |     25 MiB |    317 GiB |    317 GiB |
+|---------------------------------------------------------------------------|
+| Requested memory      |    988 MiB |    988 MiB |   1643 GiB |   1642 GiB |
+|       from large pool |    963 MiB |    963 MiB |   1326 GiB |   1325 GiB |
+|       from small pool |     25 MiB |     25 MiB |    316 GiB |    316 GiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |   1250 MiB |   1250 MiB |  21434 MiB |  20184 MiB |
+|       from large pool |   1216 MiB |   1216 MiB |  17210 MiB |  15994 MiB |
+|       from small pool |     34 MiB |     34 MiB |   4224 MiB |   4190 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |  93578 KiB |  93578 KiB |   2311 GiB |   2310 GiB |
+|       from large pool |  92672 KiB |  92672 KiB |   1982 GiB |   1982 GiB |
+|       from small pool |    906 KiB |    906 KiB |    328 GiB |    328 GiB |
+|---------------------------------------------------------------------------|
+| Allocations           |     357    |     357    |    7157 K  |    7157 K  |
+|       from large pool |     104    |     104    |     659 K  |     659 K  |
+|       from small pool |     253    |     253    |    6497 K  |    6497 K  |
+|---------------------------------------------------------------------------|
+| Active allocs         |     357    |     357    |    7157 K  |    7157 K  |
+|       from large pool |     104    |     104    |     659 K  |     659 K  |
+|       from small pool |     253    |     253    |    6497 K  |    6497 K  |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |      62    |      62    |    2761    |    2699    |
+|       from large pool |      45    |      45    |     649    |     604    |
+|       from small pool |      17    |      17    |    2112    |    2095    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |      39    |      39    |    3480 K  |    3480 K  |
+|       from large pool |      38    |      38    |     322 K  |     322 K  |
+|       from small pool |       1    |       1    |    3158 K  |    3158 K  |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+
+[2025-03-10 20:15:03] Sample 19 classification result on cuda: {"intent": {"label": "create_account", "confidence": 0.20876581966876984}, "category": {"label": "account", "confidence": 0.6804513931274414}, "ner": [{"entity": "standard", "label": "account_type", "confidence": 0.6696047782897949}, {"entity": "acc", "label": "delivery_country", "confidence": 0.15285900235176086}, {"entity": "father", "label": "account_type", "confidence": 0.14213921129703522}]}
+[2025-03-10 20:15:05] Warning: Zero memory usage for sample 19 on cuda
+[2025-03-10 20:15:05] System memory: 16085.17 MB total, 13536.77 MB used
+[2025-03-10 20:15:05] GPU memory stats: |===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 0                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      |    990 MiB |    990 MiB |   1784 GiB |   1783 GiB |
+|       from large pool |    965 MiB |    965 MiB |   1464 GiB |   1463 GiB |
+|       from small pool |     25 MiB |     25 MiB |    319 GiB |    319 GiB |
+|---------------------------------------------------------------------------|
+| Active memory         |    990 MiB |    990 MiB |   1784 GiB |   1783 GiB |
+|       from large pool |    965 MiB |    965 MiB |   1464 GiB |   1463 GiB |
+|       from small pool |     25 MiB |     25 MiB |    319 GiB |    319 GiB |
+|---------------------------------------------------------------------------|
+| Requested memory      |    988 MiB |    988 MiB |   1655 GiB |   1654 GiB |
+|       from large pool |    963 MiB |    963 MiB |   1337 GiB |   1336 GiB |
+|       from small pool |     25 MiB |     25 MiB |    318 GiB |    318 GiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |   1312 MiB |   1312 MiB |  21664 MiB |  20352 MiB |
+|       from large pool |   1278 MiB |   1278 MiB |  17432 MiB |  16154 MiB |
+|       from small pool |     34 MiB |     34 MiB |   4232 MiB |   4198 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |  93578 KiB |  93578 KiB |   2328 GiB |   2328 GiB |
+|       from large pool |  92672 KiB |  92672 KiB |   1997 GiB |   1997 GiB |
+|       from small pool |    906 KiB |    906 KiB |    330 GiB |    330 GiB |
+|---------------------------------------------------------------------------|
+| Allocations           |     357    |     357    |    7204 K  |    7204 K  |
+|       from large pool |     104    |     104    |     664 K  |     664 K  |
+|       from small pool |     253    |     253    |    6539 K  |    6539 K  |
+|---------------------------------------------------------------------------|
+| Active allocs         |     357    |     357    |    7204 K  |    7204 K  |
+|       from large pool |     104    |     104    |     664 K  |     664 K  |
+|       from small pool |     253    |     253    |    6539 K  |    6539 K  |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |      64    |      64    |    2772    |    2708    |
+|       from large pool |      47    |      47    |     656    |     609    |
+|       from small pool |      17    |      17    |    2116    |    2099    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |      39    |      39    |    3503 K  |    3503 K  |
+|       from large pool |      38    |      38    |     323 K  |     323 K  |
+|       from small pool |       1    |       1    |    3179 K  |    3179 K  |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+
+[2025-03-10 20:15:06] Sample 20 classification result on cuda: {"intent": {"label": "delete_account", "confidence": 0.12966737151145935}, "category": {"label": "account", "confidence": 0.41327548027038574}, "ner": [{"entity": "inf", "label": "person_name", "confidence": 0.19651837646961212}, {"entity": "enterprise", "label": "account_type", "confidence": 0.82864910364151}]}
+[2025-03-10 20:15:13] Warning: Zero memory usage for sample 20 on cuda
+[2025-03-10 20:15:13] System memory: 16085.17 MB total, 13512.81 MB used
+[2025-03-10 20:15:13] GPU memory stats: |===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 0                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      |    990 MiB |    990 MiB |   1794 GiB |   1793 GiB |
+|       from large pool |    965 MiB |    965 MiB |   1473 GiB |   1472 GiB |
+|       from small pool |     25 MiB |     25 MiB |    321 GiB |    321 GiB |
+|---------------------------------------------------------------------------|
+| Active memory         |    990 MiB |    990 MiB |   1794 GiB |   1793 GiB |
+|       from large pool |    965 MiB |    965 MiB |   1473 GiB |   1472 GiB |
+|       from small pool |     25 MiB |     25 MiB |    321 GiB |    321 GiB |
+|---------------------------------------------------------------------------|
+| Requested memory      |    988 MiB |    988 MiB |   1666 GiB |   1665 GiB |
+|       from large pool |    963 MiB |    963 MiB |   1346 GiB |   1345 GiB |
+|       from small pool |     25 MiB |     25 MiB |    319 GiB |    319 GiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |   1284 MiB |   1284 MiB |  21866 MiB |  20582 MiB |
+|       from large pool |   1250 MiB |   1250 MiB |  17626 MiB |  16376 MiB |
+|       from small pool |     34 MiB |     34 MiB |   4240 MiB |   4206 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |  93578 KiB |  93578 KiB |   2341 GiB |   2340 GiB |
+|       from large pool |  92672 KiB |  92672 KiB |   2009 GiB |   2009 GiB |
+|       from small pool |    906 KiB |    906 KiB |    331 GiB |    331 GiB |
+|---------------------------------------------------------------------------|
+| Allocations           |     357    |     357    |    7246 K  |    7245 K  |
+|       from large pool |     104    |     104    |     669 K  |     668 K  |
+|       from small pool |     253    |     253    |    6576 K  |    6576 K  |
+|---------------------------------------------------------------------------|
+| Active allocs         |     357    |     357    |    7246 K  |    7245 K  |
+|       from large pool |     104    |     104    |     669 K  |     668 K  |
+|       from small pool |     253    |     253    |    6576 K  |    6576 K  |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |      63    |      63    |    2782    |    2719    |
+|       from large pool |      46    |      46    |     662    |     616    |
+|       from small pool |      17    |      17    |    2120    |    2103    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |      39    |      39    |    3523 K  |    3523 K  |
+|       from large pool |      38    |      38    |     325 K  |     325 K  |
+|       from small pool |       1    |       1    |    3197 K  |    3197 K  |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+
+[2025-03-10 20:15:14] Sample 21 classification result on cuda: {"intent": {"label": "place_order", "confidence": 0.7790762186050415}, "category": {"label": "order", "confidence": 0.7801088690757751}, "ner": []}
+[2025-03-10 20:15:16] Warning: Zero memory usage for sample 21 on cuda
+[2025-03-10 20:15:16] System memory: 16085.17 MB total, 13499.31 MB used
+[2025-03-10 20:15:16] GPU memory stats: |===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 0                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      |    990 MiB |    990 MiB |   1802 GiB |   1801 GiB |
+|       from large pool |    965 MiB |    965 MiB |   1480 GiB |   1479 GiB |
+|       from small pool |     25 MiB |     25 MiB |    322 GiB |    322 GiB |
+|---------------------------------------------------------------------------|
+| Active memory         |    990 MiB |    990 MiB |   1802 GiB |   1801 GiB |
+|       from large pool |    965 MiB |    965 MiB |   1480 GiB |   1479 GiB |
+|       from small pool |     25 MiB |     25 MiB |    322 GiB |    322 GiB |
+|---------------------------------------------------------------------------|
+| Requested memory      |    988 MiB |    988 MiB |   1672 GiB |   1671 GiB |
+|       from large pool |    963 MiB |    963 MiB |   1351 GiB |   1350 GiB |
+|       from small pool |     25 MiB |     25 MiB |    321 GiB |    321 GiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |   1220 MiB |   1220 MiB |  22004 MiB |  20784 MiB |
+|       from large pool |   1186 MiB |   1186 MiB |  17756 MiB |  16570 MiB |
+|       from small pool |     34 MiB |     34 MiB |   4248 MiB |   4214 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |  93578 KiB |  93578 KiB |   2349 GiB |   2349 GiB |
+|       from large pool |  92672 KiB |  92672 KiB |   2016 GiB |   2016 GiB |
+|       from small pool |    906 KiB |    906 KiB |    332 GiB |    332 GiB |
+|---------------------------------------------------------------------------|
+| Allocations           |     357    |     357    |    7279 K  |    7278 K  |
+|       from large pool |     104    |     104    |     672 K  |     672 K  |
+|       from small pool |     253    |     253    |    6606 K  |    6606 K  |
+|---------------------------------------------------------------------------|
+| Active allocs         |     357    |     357    |    7279 K  |    7278 K  |
+|       from large pool |     104    |     104    |     672 K  |     672 K  |
+|       from small pool |     253    |     253    |    6606 K  |    6606 K  |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |      61    |      61    |    2790    |    2729    |
+|       from large pool |      44    |      44    |     666    |     622    |
+|       from small pool |      17    |      17    |    2124    |    2107    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |      39    |      39    |    3539 K  |    3539 K  |
+|       from large pool |      38    |      38    |     328 K  |     328 K  |
+|       from small pool |       1    |       1    |    3211 K  |    3211 K  |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+
+[2025-03-10 20:15:16] Sample 22 classification result on cuda: {"intent": {"label": "track_order", "confidence": 0.5296457409858704}, "category": {"label": "order", "confidence": 0.9760146737098694}, "ner": [{"entity": "ord-6772250", "label": "order_number", "confidence": 0.99068363904953}]}
+[2025-03-10 20:15:18] Warning: Zero memory usage for sample 22 on cuda
+[2025-03-10 20:15:18] System memory: 16085.17 MB total, 13525.00 MB used
+[2025-03-10 20:15:18] GPU memory stats: |===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 0                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      |    990 MiB |    990 MiB |   1815 GiB |   1814 GiB |
+|       from large pool |    965 MiB |    965 MiB |   1491 GiB |   1490 GiB |
+|       from small pool |     25 MiB |     25 MiB |    324 GiB |    324 GiB |
+|---------------------------------------------------------------------------|
+| Active memory         |    990 MiB |    990 MiB |   1815 GiB |   1814 GiB |
+|       from large pool |    965 MiB |    965 MiB |   1491 GiB |   1490 GiB |
+|       from small pool |     25 MiB |     25 MiB |    324 GiB |    324 GiB |
+|---------------------------------------------------------------------------|
+| Requested memory      |    988 MiB |    988 MiB |   1685 GiB |   1684 GiB |
+|       from large pool |    963 MiB |    963 MiB |   1362 GiB |   1361 GiB |
+|       from small pool |     25 MiB |     25 MiB |    322 GiB |    322 GiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |   1276 MiB |   1276 MiB |  22198 MiB |  20922 MiB |
+|       from large pool |   1242 MiB |   1242 MiB |  17942 MiB |  16700 MiB |
+|       from small pool |     34 MiB |     34 MiB |   4256 MiB |   4222 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |  93578 KiB |  93578 KiB |   2365 GiB |   2365 GiB |
+|       from large pool |  92672 KiB |  92672 KiB |   2030 GiB |   2030 GiB |
+|       from small pool |    906 KiB |    906 KiB |    334 GiB |    334 GiB |
+|---------------------------------------------------------------------------|
+| Allocations           |     357    |     357    |    7329 K  |    7328 K  |
+|       from large pool |     104    |     104    |     677 K  |     677 K  |
+|       from small pool |     253    |     253    |    6651 K  |    6651 K  |
+|---------------------------------------------------------------------------|
+| Active allocs         |     357    |     357    |    7329 K  |    7328 K  |
+|       from large pool |     104    |     104    |     677 K  |     677 K  |
+|       from small pool |     253    |     253    |    6651 K  |    6651 K  |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |      63    |      63    |    2800    |    2737    |
+|       from large pool |      46    |      46    |     672    |     626    |
+|       from small pool |      17    |      17    |    2128    |    2111    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |      39    |      39    |    3564 K  |    3564 K  |
+|       from large pool |      38    |      38    |     330 K  |     330 K  |
+|       from small pool |       1    |       1    |    3233 K  |    3233 K  |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+
+[2025-03-10 20:15:19] Sample 23 classification result on cuda: {"intent": {"label": "delete_account", "confidence": 0.22180011868476868}, "category": {"label": "account", "confidence": 0.7741875052452087}, "ner": [{"entity": "government", "label": "account_type", "confidence": 0.5984013080596924}]}
+[2025-03-10 20:15:21] Warning: Zero memory usage for sample 23 on cuda
+[2025-03-10 20:15:21] System memory: 16085.17 MB total, 13526.29 MB used
+[2025-03-10 20:15:21] GPU memory stats: |===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 0                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      |    990 MiB |    990 MiB |   1828 GiB |   1827 GiB |
+|       from large pool |    965 MiB |    965 MiB |   1502 GiB |   1501 GiB |
+|       from small pool |     25 MiB |     25 MiB |    326 GiB |    326 GiB |
+|---------------------------------------------------------------------------|
+| Active memory         |    990 MiB |    990 MiB |   1828 GiB |   1827 GiB |
+|       from large pool |    965 MiB |    965 MiB |   1502 GiB |   1501 GiB |
+|       from small pool |     25 MiB |     25 MiB |    326 GiB |    326 GiB |
+|---------------------------------------------------------------------------|
+| Requested memory      |    988 MiB |    988 MiB |   1696 GiB |   1695 GiB |
+|       from large pool |    963 MiB |    963 MiB |   1372 GiB |   1371 GiB |
+|       from small pool |     25 MiB |     25 MiB |    324 GiB |    324 GiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |   1282 MiB |   1282 MiB |  22398 MiB |  21116 MiB |
+|       from large pool |   1248 MiB |   1248 MiB |  18134 MiB |  16886 MiB |
+|       from small pool |     34 MiB |     34 MiB |   4264 MiB |   4230 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |  93578 KiB |  93578 KiB |   2382 GiB |   2381 GiB |
+|       from large pool |  92672 KiB |  92672 KiB |   2045 GiB |   2045 GiB |
+|       from small pool |    906 KiB |    906 KiB |    336 GiB |    336 GiB |
+|---------------------------------------------------------------------------|
+| Allocations           |     357    |     357    |    7381 K  |    7381 K  |
+|       from large pool |     104    |     104    |     683 K  |     683 K  |
+|       from small pool |     253    |     253    |    6698 K  |    6698 K  |
+|---------------------------------------------------------------------------|
+| Active allocs         |     357    |     357    |    7381 K  |    7381 K  |
+|       from large pool |     104    |     104    |     683 K  |     683 K  |
+|       from small pool |     253    |     253    |    6698 K  |    6698 K  |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |      64    |      64    |    2811    |    2747    |
+|       from large pool |      47    |      47    |     679    |     632    |
+|       from small pool |      17    |      17    |    2132    |    2115    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |      39    |      39    |    3590 K  |    3590 K  |
+|       from large pool |      38    |      38    |     333 K  |     333 K  |
+|       from small pool |       1    |       1    |    3257 K  |    3257 K  |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+
+[2025-03-10 20:15:21] Sample 24 classification result on cuda: {"intent": {"label": "complaint", "confidence": 0.2859945595264435}, "category": {"label": "feedback", "confidence": 0.8462762832641602}, "ner": [{"entity": "consumer", "label": "account_type", "confidence": 0.5223863124847412}]}
+[2025-03-10 20:15:23] Warning: Zero memory usage for sample 24 on cuda
+[2025-03-10 20:15:23] System memory: 16085.17 MB total, 13532.78 MB used
+[2025-03-10 20:15:23] GPU memory stats: |===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 0                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      |    990 MiB |    990 MiB |   1836 GiB |   1835 GiB |
+|       from large pool |    965 MiB |    965 MiB |   1508 GiB |   1507 GiB |
+|       from small pool |     25 MiB |     25 MiB |    327 GiB |    327 GiB |
+|---------------------------------------------------------------------------|
+| Active memory         |    990 MiB |    990 MiB |   1836 GiB |   1835 GiB |
+|       from large pool |    965 MiB |    965 MiB |   1508 GiB |   1507 GiB |
+|       from small pool |     25 MiB |     25 MiB |    327 GiB |    327 GiB |
+|---------------------------------------------------------------------------|
+| Requested memory      |    988 MiB |    988 MiB |   1703 GiB |   1702 GiB |
+|       from large pool |    963 MiB |    963 MiB |   1377 GiB |   1376 GiB |
+|       from small pool |     25 MiB |     25 MiB |    325 GiB |    325 GiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |   1230 MiB |   1230 MiB |  22546 MiB |  21316 MiB |
+|       from large pool |   1196 MiB |   1196 MiB |  18274 MiB |  17078 MiB |
+|       from small pool |     34 MiB |     34 MiB |   4272 MiB |   4238 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |  93578 KiB |  93578 KiB |   2390 GiB |   2390 GiB |
+|       from large pool |  92672 KiB |  92672 KiB |   2052 GiB |   2052 GiB |
+|       from small pool |    906 KiB |    906 KiB |    337 GiB |    337 GiB |
+|---------------------------------------------------------------------------|
+| Allocations           |     357    |     357    |    7412 K  |    7412 K  |
+|       from large pool |     104    |     104    |     686 K  |     686 K  |
+|       from small pool |     253    |     253    |    6726 K  |    6725 K  |
+|---------------------------------------------------------------------------|
+| Active allocs         |     357    |     357    |    7412 K  |    7412 K  |
+|       from large pool |     104    |     104    |     686 K  |     686 K  |
+|       from small pool |     253    |     253    |    6726 K  |    6725 K  |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |      61    |      61    |    2819    |    2758    |
+|       from large pool |      44    |      44    |     683    |     639    |
+|       from small pool |      17    |      17    |    2136    |    2119    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |      39    |      39    |    3606 K  |    3605 K  |
+|       from large pool |      38    |      38    |     335 K  |     335 K  |
+|       from small pool |       1    |       1    |    3270 K  |    3270 K  |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+
+[2025-03-10 20:15:23] Sample 25 classification result on cuda: {"intent": {"label": "track_order", "confidence": 0.4814947843551636}, "category": {"label": "order", "confidence": 0.9580598473548889}, "ner": [{"entity": "ord-3779640", "label": "order_number", "confidence": 0.9878963470458985}]}
+[2025-03-10 20:15:25] Warning: Zero memory usage for sample 25 on cuda
+[2025-03-10 20:15:25] System memory: 16085.17 MB total, 13511.41 MB used
+[2025-03-10 20:15:25] GPU memory stats: |===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 0                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      |    990 MiB |    990 MiB |   1848 GiB |   1847 GiB |
+|       from large pool |    965 MiB |    965 MiB |   1519 GiB |   1518 GiB |
+|       from small pool |     25 MiB |     25 MiB |    328 GiB |    328 GiB |
+|---------------------------------------------------------------------------|
+| Active memory         |    990 MiB |    990 MiB |   1848 GiB |   1847 GiB |
+|       from large pool |    965 MiB |    965 MiB |   1519 GiB |   1518 GiB |
+|       from small pool |     25 MiB |     25 MiB |    328 GiB |    328 GiB |
+|---------------------------------------------------------------------------|
+| Requested memory      |    988 MiB |    988 MiB |   1714 GiB |   1713 GiB |
+|       from large pool |    963 MiB |    963 MiB |   1387 GiB |   1386 GiB |
+|       from small pool |     25 MiB |     25 MiB |    327 GiB |    327 GiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |   1276 MiB |   1276 MiB |  22740 MiB |  21464 MiB |
+|       from large pool |   1242 MiB |   1242 MiB |  18460 MiB |  17218 MiB |
+|       from small pool |     34 MiB |     34 MiB |   4280 MiB |   4246 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |  93578 KiB |  93578 KiB |   2404 GiB |   2404 GiB |
+|       from large pool |  92672 KiB |  92672 KiB |   2065 GiB |   2065 GiB |
+|       from small pool |    906 KiB |    906 KiB |    339 GiB |    339 GiB |
+|---------------------------------------------------------------------------|
+| Allocations           |     357    |     357    |    7459 K  |    7459 K  |
+|       from large pool |     104    |     104    |     691 K  |     691 K  |
+|       from small pool |     253    |     253    |    6768 K  |    6767 K  |
+|---------------------------------------------------------------------------|
+| Active allocs         |     357    |     357    |    7459 K  |    7459 K  |
+|       from large pool |     104    |     104    |     691 K  |     691 K  |
+|       from small pool |     253    |     253    |    6768 K  |    6767 K  |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |      63    |      63    |    2829    |    2766    |
+|       from large pool |      46    |      46    |     689    |     643    |
+|       from small pool |      17    |      17    |    2140    |    2123    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |      39    |      39    |    3629 K  |    3629 K  |
+|       from large pool |      38    |      38    |     337 K  |     337 K  |
+|       from small pool |       1    |       1    |    3291 K  |    3291 K  |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+
+[2025-03-10 20:15:26] Sample 26 classification result on cuda: {"intent": {"label": "check_refund_policy", "confidence": 0.31950274109840393}, "category": {"label": "refund", "confidence": 0.6168148517608643}, "ner": []}
+[2025-03-10 20:15:30] Warning: Zero memory usage for sample 26 on cuda
+[2025-03-10 20:15:30] System memory: 16085.17 MB total, 13487.49 MB used
+[2025-03-10 20:15:30] GPU memory stats: |===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 0                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      |    990 MiB |    990 MiB |   1879 GiB |   1878 GiB |
+|       from large pool |    965 MiB |    965 MiB |   1546 GiB |   1545 GiB |
+|       from small pool |     25 MiB |     25 MiB |    332 GiB |    332 GiB |
+|---------------------------------------------------------------------------|
+| Active memory         |    990 MiB |    990 MiB |   1879 GiB |   1878 GiB |
+|       from large pool |    965 MiB |    965 MiB |   1546 GiB |   1545 GiB |
+|       from small pool |     25 MiB |     25 MiB |    332 GiB |    332 GiB |
+|---------------------------------------------------------------------------|
+| Requested memory      |    988 MiB |    988 MiB |   1745 GiB |   1744 GiB |
+|       from large pool |    963 MiB |    963 MiB |   1413 GiB |   1412 GiB |
+|       from small pool |     25 MiB |     25 MiB |    331 GiB |    331 GiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |   1430 MiB |   1430 MiB |  23088 MiB |  21658 MiB |
+|       from large pool |   1396 MiB |   1396 MiB |  18800 MiB |  17404 MiB |
+|       from small pool |     34 MiB |     34 MiB |   4288 MiB |   4254 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |  93578 KiB |  93578 KiB |   2449 GiB |   2449 GiB |
+|       from large pool |  92672 KiB |  92672 KiB |   2106 GiB |   2106 GiB |
+|       from small pool |    906 KiB |    906 KiB |    343 GiB |    343 GiB |
+|---------------------------------------------------------------------------|
+| Allocations           |     357    |     357    |    7561 K  |    7560 K  |
+|       from large pool |     104    |     104    |     701 K  |     701 K  |
+|       from small pool |     253    |     253    |    6860 K  |    6859 K  |
+|---------------------------------------------------------------------------|
+| Active allocs         |     357    |     357    |    7561 K  |    7560 K  |
+|       from large pool |     104    |     104    |     701 K  |     701 K  |
+|       from small pool |     253    |     253    |    6860 K  |    6859 K  |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |      71    |      71    |    2847    |    2776    |
+|       from large pool |      54    |      54    |     703    |     649    |
+|       from small pool |      17    |      17    |    2144    |    2127    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |      39    |      39    |    3677 K  |    3677 K  |
+|       from large pool |      38    |      38    |     341 K  |     341 K  |
+|       from small pool |       1    |       1    |    3336 K  |    3336 K  |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+
+[2025-03-10 20:15:31] Sample 27 classification result on cuda: {"intent": {"label": "contact_customer_service", "confidence": 0.27337855100631714}, "category": {"label": "contact", "confidence": 0.5195054411888123}, "ner": [{"entity": "customer", "label": "account_type", "confidence": 0.5467323660850525}]}
+[2025-03-10 20:15:33] Warning: Zero memory usage for sample 27 on cuda
+[2025-03-10 20:15:33] System memory: 16085.17 MB total, 13466.44 MB used
+[2025-03-10 20:15:33] GPU memory stats: |===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 0                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      |    990 MiB |    990 MiB |   1890 GiB |   1889 GiB |
+|       from large pool |    965 MiB |    965 MiB |   1556 GiB |   1555 GiB |
+|       from small pool |     25 MiB |     25 MiB |    334 GiB |    334 GiB |
+|---------------------------------------------------------------------------|
+| Active memory         |    990 MiB |    990 MiB |   1890 GiB |   1889 GiB |
+|       from large pool |    965 MiB |    965 MiB |   1556 GiB |   1555 GiB |
+|       from small pool |     25 MiB |     25 MiB |    334 GiB |    334 GiB |
+|---------------------------------------------------------------------------|
+| Requested memory      |    988 MiB |    988 MiB |   1756 GiB |   1755 GiB |
+|       from large pool |    963 MiB |    963 MiB |   1422 GiB |   1421 GiB |
+|       from small pool |     25 MiB |     25 MiB |    333 GiB |    333 GiB |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |   1278 MiB |   1278 MiB |  23284 MiB |  22006 MiB |
+|       from large pool |   1244 MiB |   1244 MiB |  18988 MiB |  17744 MiB |
+|       from small pool |     34 MiB |     34 MiB |   4296 MiB |   4262 MiB |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |  93578 KiB |  93578 KiB |   2464 GiB |   2463 GiB |
+|       from large pool |  92672 KiB |  92672 KiB |   2118 GiB |   2118 GiB |
+|       from small pool |    906 KiB |    906 KiB |    345 GiB |    345 GiB |
+|---------------------------------------------------------------------------|
+| Allocations           |     357    |     357    |    7606 K  |    7606 K  |
+|       from large pool |     104    |     104    |     705 K  |     705 K  |
+|       from small pool |     253    |     253    |    6900 K  |    6900 K  |
+|---------------------------------------------------------------------------|
+| Active allocs         |     357    |     357    |    7606 K  |    7606 K  |
+|       from large pool |     104    |     104    |     705 K  |     705 K  |
+|       from small pool |     253    |     253    |    6900 K  |    6900 K  |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |      63    |      63    |    2857    |    2794    |
+|       from large pool |      46    |      46    |     709    |     663    |
+|       from small pool |      17    |      17    |    2148    |    2131    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |      39    |      39    |    3699 K  |    3699 K  |
+|       from large pool |      38    |      38    |     343 K  |     343 K  |
+|       from small pool |       1    |       1    |    3356 K  |    3356 K  |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+
+[2025-03-10 20:15:33] Cleanup completed
