@@ -1,0 +1,1312 @@
+Using device: cuda
+Loading datasets...
+
+Loading dataset from train.json...
+Loaded 21497 samples from train.json
+Loading dataset from val.json...
+Loaded 2687 samples from val.json
+Loading dataset from test.json...
+Loaded 2688 samples from test.json
+Dataset sizes: Train=21497, Val=2687, Test=2688
+Detecting labels...
+Label detection summary: Categories=11, Intents=27, NER tags=19
+NER class weights computed: tensor([10.0310,  8.0321, 21.3929, 36.3210, 45.2769], device='cuda:0')...
+Category class weights computed: tensor([0.4049, 2.6022, 1.2291, 1.2176, 1.2448], device='cuda:0')...
+Intent class weights computed: tensor([0.9817, 0.9829, 1.0518, 1.0602, 0.9854], device='cuda:0')...
+Creating DataLoaders...
+Initialized dataset with 21497 samples
+Initialized dataset with 2687 samples
+Initialized dataset with 2688 samples
+DataLoaders created: Train=1344, Val=168, Test=168
+Initializing model...
+All GPT-2 layers remain frozen
+Model initialized with loss weights: {'intent': 0.2, 'category': 0.2, 'ner': 0.4}
+Intent class weights applied: tensor([0.9817, 0.9829, 1.0518, 1.0602, 0.9854], device='cuda:0')...
+Category class weights applied: tensor([0.4049, 2.6022, 1.2291, 1.2176, 1.2448], device='cuda:0')...
+NER class weights applied: tensor([10.0310,  8.0321, 21.3929, 36.3210, 45.2769], device='cuda:0')...
+Model before training is on: cuda:0
+Hyperparameters saved to hyperparameters.json
+Model is on: cuda:0
+Starting Epoch 1/3 [Training]
+Aligning NER labels for text: i want assistance giving a quick look at bill #377...
+Aligning NER labels for text: i need help speaking with a person...
+NER Labels: []
+NER Labels: []
+Debug Aligned Labels:
+Debug Aligned Labels:
+Token | Aligned Label
+Token | Aligned Label
+i               | O
+i               | O
+Ġwant           | O
+Ġneed           | O
+Ġassistance     | O
+Ġhelp           | O
+Ġgiving         | O
+Ġspeaking       | O
+Ġa              | O
+Ġwith           | O
+Ġquick          | O
+Ġa              | O
+Ġlook           | O
+Ġperson         | O
+Ġat             | O
+Alignment Summary: 0 entities found, 0 entities not found
+Ġbill           | O
+Aligning NER labels for text: need to use the non-profit profile...
+Ġ#              | O
+NER Labels: [{'text': 'Non-Profit', 'label': 'account_type'}]
+37              | O
+Debug Aligned Labels:
+777             | O
+Token | Aligned Label
+Alignment Summary: 0 entities found, 0 entities not found
+need            | O
+Aligning NER labels for text: i want help listing u payment methods...
+Ġto             | O
+NER Labels: []
+Ġuse            | O
+Debug Aligned Labels:
+Ġthe            | O
+Token | Aligned Label
+Ġnon            | B-account_type
+i               | O
+-               | I-account_type
+Ġwant           | O
+profit          | I-account_type
+Ġhelp           | O
+Ġprofile        | O
+Ġlisting        | O
+Alignment Summary: 1 entities found, 0 entities not found
+Ġu              | O
+Ġpayment        | O
+Ġmethods        | O
+Alignment Summary: 0 entities found, 0 entities not found
+Input IDs is on: cuda:0
+Epoch 1/3 [Validation]
+Aligning NER labels for text: can i see under which circumstances can i ask for ...
+NER Labels: []
+Aligning NER labels for text: what do i need to do to recover the pwd of my prof...
+Debug Aligned Labels:
+NER Labels: []
+Token | Aligned Label
+Debug Aligned Labels:
+can             | O
+Token | Aligned Label
+Ġi              | O
+what            | O
+Ġsee            | O
+Ġdo             | O
+Ġunder          | O
+Ġi              | O
+Ġwhich          | O
+Ġneed           | O
+Ġcircumstances  | O
+Ġto             | O
+Ġcan            | O
+Ġdo             | O
+Ġi              | O
+Ġto             | O
+Ġask            | O
+Ġrecover        | O
+Ġfor            | O
+Ġthe            | O
+Ġa              | O
+Ġp              | O
+Ġrefund         | O
+wd              | O
+?               | O
+Ġof             | O
+Alignment Summary: 0 entities found, 0 entities not found
+Ġmy             | O
+Aligning NER labels for text: i do not know how i can see the accepted payment o...
+Ġprofile        | O
+NER Labels: []
+?               | O
+Debug Aligned Labels:
+Alignment Summary: 0 entities found, 0 entities not found
+Token | Aligned Label
+Aligning NER labels for text: i don't know how to inform of an issue with sign-u...
+i               | O
+NER Labels: []
+Ġdo             | O
+Debug Aligned Labels:
+Ġnot            | O
+Token | Aligned Label
+Ġknow           | O
+i               | O
+Ġhow            | O
+Ġdon            | O
+Ġi              | O
+'t              | O
+Ġcan            | O
+Ġknow           | O
+Ġsee            | O
+Ġhow            | O
+Ġthe            | O
+Ġto             | O
+Ġaccepted       | O
+Ġinform         | O
+Ġpayment        | O
+Ġof             | O
+Ġoptions        | O
+Ġan             | O
+Alignment Summary: 0 entities found, 0 entities not found
+Ġissue          | O
+Ġwith           | O
+Ġsign           | O
+-               | O
+up              | O
+Alignment Summary: 0 entities found, 0 entities not found
+Epoch 1/3:
+  Train Loss: 1.8107, Intent F1: 0.1514, Category F1: 0.3291, NER F1: 0.0750
+  Val Loss: 1.2853, Intent F1: 0.6548, Category F1: 0.7561, NER F1: 0.1261
+Starting Epoch 2/3 [Training]
+Aligning NER labels for text: change information on government account...
+NER Labels: [{'text': 'Government', 'label': 'account_type'}]
+Aligning NER labels for text: seeing purchase ord-3764878 current status...
+Debug Aligned Labels:
+NER Labels: [{'text': 'ORD-3764878', 'label': 'order_number'}]
+Token | Aligned Label
+Debug Aligned Labels:
+change          | O
+Token | Aligned Label
+Ġinformation    | O
+seeing          | O
+Ġon             | O
+Ġpurchase       | O
+Ġgovernment     | B-account_type
+Ġord            | B-order_number
+Ġaccount        | O
+-               | I-order_number
+Alignment Summary: 1 entities found, 0 entities not found
+37              | I-order_number
+Aligning NER labels for text: i need help notifying of a problem with payment...
+648             | I-order_number
+NER Labels: []
+78              | I-order_number
+Debug Aligned Labels:
+Ġcurrent        | O
+Token | Aligned Label
+Ġstatus         | O
+i               | O
+Alignment Summary: 1 entities found, 0 entities not found
+Ġneed           | O
+Aligning NER labels for text: i am looking for the bloody shipping period...
+Ġhelp           | O
+NER Labels: []
+Ġnot            | O
+Debug Aligned Labels:
+ifying          | O
+Token | Aligned Label
+Ġof             | O
+i               | O
+Ġa              | O
+Ġam             | O
+Ġproblem        | O
+Ġlooking        | O
+Ġwith           | O
+Ġfor            | O
+Ġpayment        | O
+Ġthe            | O
+Alignment Summary: 0 entities found, 0 entities not found
+Ġbloody         | O
+Ġshipping       | O
+Ġperiod         | O
+Alignment Summary: 0 entities found, 0 entities not found
+Input IDs is on: cuda:0
+Epoch 2/3 [Validation]
+Aligning NER labels for text: can i see under which circumstances can i ask for ...
+NER Labels: []
+Aligning NER labels for text: what do i need to do to recover the pwd of my prof...
+Debug Aligned Labels:
+NER Labels: []
+Token | Aligned Label
+Debug Aligned Labels:
+can             | O
+Token | Aligned Label
+Ġi              | O
+what            | O
+Ġsee            | O
+Ġdo             | O
+Ġunder          | O
+Ġi              | O
+Ġwhich          | O
+Ġneed           | O
+Ġcircumstances  | O
+Ġto             | O
+Ġcan            | O
+Ġdo             | O
+Ġi              | O
+Ġto             | O
+Ġask            | O
+Ġrecover        | O
+Ġfor            | O
+Ġthe            | O
+Ġa              | O
+Ġp              | O
+Ġrefund         | O
+wd              | O
+?               | O
+Ġof             | O
+Alignment Summary: 0 entities found, 0 entities not found
+Ġmy             | O
+Aligning NER labels for text: i do not know how i can see the accepted payment o...
+Ġprofile        | O
+NER Labels: []
+?               | O
+Debug Aligned Labels:
+Alignment Summary: 0 entities found, 0 entities not found
+Token | Aligned Label
+Aligning NER labels for text: i don't know how to inform of an issue with sign-u...
+i               | O
+NER Labels: []
+Ġdo             | O
+Debug Aligned Labels:
+Ġnot            | O
+Token | Aligned Label
+Ġknow           | O
+i               | O
+Ġhow            | O
+Ġdon            | O
+Ġi              | O
+'t              | O
+Ġcan            | O
+Ġknow           | O
+Ġsee            | O
+Ġhow            | O
+Ġthe            | O
+Ġto             | O
+Ġaccepted       | O
+Ġinform         | O
+Ġpayment        | O
+Ġof             | O
+Ġoptions        | O
+Ġan             | O
+Alignment Summary: 0 entities found, 0 entities not found
+Ġissue          | O
+Ġwith           | O
+Ġsign           | O
+-               | O
+up              | O
+Alignment Summary: 0 entities found, 0 entities not found
+Epoch 2/3:
+  Train Loss: 1.1273, Intent F1: 0.5808, Category F1: 0.7684, NER F1: 0.1684
+  Val Loss: 0.7973, Intent F1: 0.7613, Category F1: 0.8551, NER F1: 0.2635
+Starting Epoch 3/3 [Training]
+Aligning NER labels for text: i want to file a damn reclamation, how can i do it...
+NER Labels: []
+Aligning NER labels for text: i do not know what i need to dp to contact an agen...
+NER Labels: []
+Debug Aligned Labels:
+Token | Aligned Label
+Debug Aligned Labels:
+i               | O
+Token | Aligned Label
+Ġwant           | O
+i               | O
+Ġto             | O
+Ġdo             | O
+Ġfile           | O
+Ġnot            | O
+Ġa              | O
+Ġknow           | O
+Ġdamn           | O
+Ġwhat           | O
+Ġre             | O
+Ġi              | O
+clamation       | O
+Ġneed           | O
+,               | O
+Ġto             | O
+Ġhow            | O
+Ġd              | O
+Ġcan            | O
+p               | O
+Ġi              | O
+Ġto             | O
+Ġdo             | O
+Ġcontact        | O
+Ġit             | O
+Ġan             | O
+?               | O
+Ġagent          | O
+Alignment Summary: 0 entities found, 0 entities not found
+Alignment Summary: 0 entities found, 0 entities not found
+Aligning NER labels for text: i dont know what i need to do to find ibll #12588...
+Aligning NER labels for text: what are your allowed payment modalities?...
+NER Labels: []
+NER Labels: []
+Debug Aligned Labels:
+Debug Aligned Labels:
+Token | Aligned Label
+Token | Aligned Label
+i               | O
+what            | O
+Ġdont           | O
+Ġare            | O
+Ġknow           | O
+Ġyour           | O
+Ġwhat           | O
+Ġallowed        | O
+Ġi              | O
+Ġpayment        | O
+Ġneed           | O
+Ġmod            | O
+Ġto             | O
+alities         | O
+Ġdo             | O
+?               | O
+Ġto             | O
+Alignment Summary: 0 entities found, 0 entities not found
+Ġfind           | O
+Ġib             | O
+ll              | O
+Ġ#              | O
+12              | O
+588             | O
+Alignment Summary: 0 entities found, 0 entities not found
+Input IDs is on: cuda:0
+Epoch 3/3 [Validation]
+Aligning NER labels for text: can i see under which circumstances can i ask for ...
+Aligning NER labels for text: what do i need to do to recover the pwd of my prof...
+NER Labels: []
+NER Labels: []
+Debug Aligned Labels:
+Debug Aligned Labels:
+Token | Aligned Label
+Token | Aligned Label
+can             | O
+what            | O
+Ġi              | O
+Ġdo             | O
+Ġsee            | O
+Ġi              | O
+Ġunder          | O
+Ġneed           | O
+Ġwhich          | O
+Ġto             | O
+Ġcircumstances  | O
+Ġdo             | O
+Ġcan            | O
+Ġi              | O
+Ġrecover        | O
+Ġask            | O
+Ġthe            | O
+Ġfor            | O
+Ġp              | O
+Ġa              | O
+wd              | O
+Ġrefund         | O
+Ġof             | O
+?               | O
+Ġmy             | O
+Alignment Summary: 0 entities found, 0 entities not found
+Ġprofile        | O
+Aligning NER labels for text: i do not know how i can see the accepted payment o...
+?               | O
+NER Labels: []
+Alignment Summary: 0 entities found, 0 entities not found
+Debug Aligned Labels:
+Aligning NER labels for text: i don't know how to inform of an issue with sign-u...
+Token | Aligned Label
+NER Labels: []
+i               | O
+Debug Aligned Labels:
+Ġdo             | O
+Token | Aligned Label
+Ġnot            | O
+i               | O
+Ġknow           | O
+Ġdon            | O
+Ġhow            | O
+'t              | O
+Ġi              | O
+Ġknow           | O
+Ġcan            | O
+Ġhow            | O
+Ġsee            | O
+Ġto             | O
+Ġthe            | O
+Ġinform         | O
+Ġaccepted       | O
+Ġof             | O
+Ġpayment        | O
+Ġan             | O
+Ġoptions        | O
+Ġissue          | O
+Alignment Summary: 0 entities found, 0 entities not found
+Ġwith           | O
+Ġsign           | O
+-               | O
+up              | O
+Alignment Summary: 0 entities found, 0 entities not found
+Epoch 3/3:
+  Train Loss: 0.7623, Intent F1: 0.7780, Category F1: 0.8750, NER F1: 0.2247
+  Val Loss: 0.5415, Intent F1: 0.8543, Category F1: 0.9154, NER F1: 0.2867
+Training completed in 10.05 minutes
+Training history saved to training_history.json
+Evaluating model on test set...
+Aligning NER labels for text: i do not know what i have to do to get my invoice ...
+NER Labels: []
+Debug Aligned Labels:
+Token | Aligned Label
+i               | O
+Ġdo             | O
+Ġnot            | O
+Ġknow           | O
+Ġwhat           | O
+Aligning NER labels for text: what do i ned to do to change to the real estate a...
+Ġi              | O
+NER Labels: [{'text': 'Real Estate', 'label': 'account_category'}]
+Ġhave           | O
+Debug Aligned Labels:
+Ġto             | O
+Token | Aligned Label
+Ġdo             | O
+what            | O
+Ġto             | O
+Ġdo             | O
+Ġget            | O
+Ġi              | O
+Ġmy             | O
+Ġn              | O
+Ġinvoice        | O
+ed              | O
+Ġ#              | O
+Ġto             | O
+8               | O
+Ġdo             | O
+56              | O
+Ġto             | O
+32              | O
+Ġchange         | O
+Alignment Summary: 0 entities found, 0 entities not found
+Ġto             | O
+Aligning NER labels for text: transfer to live agent...
+Ġthe            | O
+NER Labels: []
+Ġreal           | B-account_category
+Debug Aligned Labels:
+Ġestate         | I-account_category
+Token | Aligned Label
+Ġaccount        | O
+transfer        | O
+?               | O
+Ġto             | O
+Alignment Summary: 1 entities found, 0 entities not found
+Ġlive           | O
+Aligning NER labels for text: notify of errorw with online registration...
+Ġagent          | O
+NER Labels: []
+Alignment Summary: 0 entities found, 0 entities not found
+Debug Aligned Labels:
+Token | Aligned Label
+not             | O
+ify             | O
+Ġof             | O
+Ġerror          | O
+w               | O
+Ġwith           | O
+Ġonline         | O
+Ġregistration   | O
+Alignment Summary: 0 entities found, 0 entities not found
+Sample Prediction (First Batch):
+Token | Predicted NER | True NER
+i               | O               | O
+Ġdo             | O               | O
+Ġnot            | O               | O
+Ġknow           | O               | O
+Ġwhat           | O               | O
+Ġi              | O               | O
+Ġhave           | O               | O
+Ġto             | O               | O
+Ġdo             | O               | O
+Ġto             | O               | O
+Ġget            | O               | O
+Ġmy             | O               | O
+Ġinvoice        | O               | O
+Ġ#              | I-order_number  | O
+8               | I-order_number  | O
+56              | I-order_number  | O
+32              | I-order_number  | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | O               | O
+[PAD]           | I-order_number  | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+Test Results:
+  Loss: 0.5409
+  Intent F1: 0.8492
+  Category F1: 0.9133
+  NER F1: 0.2750
+Test results saved to test_results.json
+Model saved to /content/drive/MyDrive/thesis/Baseline_freeze_v1/baseline_model.pth
+Using device: cuda
+Using device: cuda
+Loading datasets...
+
+Loading dataset from train.json...
+Loaded 21497 samples from train.json
+Loading dataset from val.json...
+Loaded 2687 samples from val.json
+Loading dataset from test.json...
+Loaded 2688 samples from test.json
+Dataset sizes: Train=21497, Val=2687, Test=2688
+Detecting labels...
+Label detection summary: Categories=11, Intents=27, NER tags=19
+Using device: cuda
+Loading datasets...
+
+Loading dataset from train.json...
+Loaded 21497 samples from train.json
+Loading dataset from val.json...
+Loaded 2687 samples from val.json
+Loading dataset from test.json...
+Loaded 2688 samples from test.json
+Dataset sizes: Train=21497, Val=2687, Test=2688
+Detecting labels...
+Label detection summary: Categories=11, Intents=27, NER tags=19
+NER class weights computed: tensor([10.0310,  8.0321, 21.3929, 36.3210, 45.2769], device='cuda:0')...
+Category class weights computed: tensor([0.4049, 2.6022, 1.2291, 1.2176, 1.2448], device='cuda:0')...
+Intent class weights computed: tensor([0.9817, 0.9829, 1.0518, 1.0602, 0.9854], device='cuda:0')...
+Creating DataLoaders...
+Initialized dataset with 21497 samples
+Initialized dataset with 2687 samples
+Initialized dataset with 2688 samples
+DataLoaders created: Train=1344, Val=168, Test=168
+Initializing model...
+All GPT-2 layers remain frozen
+Model initialized with loss weights: {'intent': 0.2, 'category': 0.2, 'ner': 0.4}
+Intent class weights applied: tensor([0.9817, 0.9829, 1.0518, 1.0602, 0.9854], device='cuda:0')...
+Category class weights applied: tensor([0.4049, 2.6022, 1.2291, 1.2176, 1.2448], device='cuda:0')...
+NER class weights applied: tensor([10.0310,  8.0321, 21.3929, 36.3210, 45.2769], device='cuda:0')...
+Model before training is on: cuda:0
+Hyperparameters saved to hyperparameters.json
+Model is on: cuda:0
+Starting Epoch 1/3 [Training]
+Aligning NER labels for text: how do i know if there is anything new on my reimb...
+Aligning NER labels for text: help recovering the password of my profile...
+NER Labels: []
+NER Labels: []
+Debug Aligned Labels:
+Debug Aligned Labels:
+Token | Aligned Label
+Token | Aligned Label
+how             | O
+help            | O
+Ġdo             | O
+Ġrecovering     | O
+Ġi              | O
+Ġthe            | O
+Ġknow           | O
+Ġpassword       | O
+Ġif             | O
+Ġof             | O
+Ġthere          | O
+Ġmy             | O
+Ġis             | O
+Ġprofile        | O
+Ġanything       | O
+Alignment Summary: 0 entities found, 0 entities not found
+Ġnew            | O
+Aligning NER labels for text: i don't know how i can change to the government ac...
+Ġon             | O
+NER Labels: [{'text': 'Government', 'label': 'account_type'}]
+Ġmy             | O
+Debug Aligned Labels:
+Ġreimbursement  | O
+Token | Aligned Label
+?               | O
+i               | O
+Alignment Summary: 0 entities found, 0 entities not found
+Ġdon            | O
+Aligning NER labels for text: want assistance checking the eta of orfer ord-4968...
+'t              | O
+NER Labels: [{'text': 'ORD-4968063', 'label': 'order_number'}]
+Ġknow           | O
+Debug Aligned Labels:
+Ġhow            | O
+Token | Aligned Label
+Ġi              | O
+want            | O
+Ġcan            | O
+Ġassistance     | O
+Ġchange         | O
+Ġchecking       | O
+Ġto             | O
+Ġthe            | O
+Ġthe            | O
+Ġet             | O
+Ġgovernment     | B-account_type
+a               | O
+Ġaccount        | O
+Ġof             | O
+Alignment Summary: 1 entities found, 0 entities not found
+Ġor             | O
+fer             | O
+Ġord            | B-order_number
+-               | I-order_number
+49              | I-order_number
+680             | I-order_number
+63              | I-order_number
+Alignment Summary: 1 entities found, 0 entities not found
+Input IDs is on: cuda:0
+Epoch 1/3 [Validation]
+Aligning NER labels for text: can i see under which circumstances can i ask for ...
+NER Labels: []
+Debug Aligned Labels:
+Aligning NER labels for text: what do i need to do to recover the pwd of my prof...
+Token | Aligned Label
+NER Labels: []
+can             | O
+Debug Aligned Labels:
+Ġi              | O
+Token | Aligned Label
+Ġsee            | O
+what            | O
+Ġunder          | O
+Ġdo             | O
+Ġwhich          | O
+Ġi              | O
+Ġcircumstances  | O
+Ġneed           | O
+Ġcan            | O
+Ġto             | O
+Ġi              | O
+Ġdo             | O
+Ġask            | O
+Ġto             | O
+Ġfor            | O
+Ġrecover        | O
+Ġa              | O
+Ġthe            | O
+Ġrefund         | O
+Ġp              | O
+?               | O
+wd              | O
+Alignment Summary: 0 entities found, 0 entities not found
+Ġof             | O
+Aligning NER labels for text: i do not know how i can see the accepted payment o...
+Ġmy             | O
+NER Labels: []
+Ġprofile        | O
+Debug Aligned Labels:
+?               | O
+Token | Aligned Label
+Alignment Summary: 0 entities found, 0 entities not found
+i               | O
+Aligning NER labels for text: i don't know how to inform of an issue with sign-u...
+Ġdo             | O
+NER Labels: []
+Ġnot            | O
+Debug Aligned Labels:
+Ġknow           | O
+Token | Aligned Label
+Ġhow            | O
+i               | O
+Ġi              | O
+Ġdon            | O
+Ġcan            | O
+'t              | O
+Ġsee            | O
+Ġknow           | O
+Ġthe            | O
+Ġhow            | O
+Ġaccepted       | O
+Ġto             | O
+Ġpayment        | O
+Ġinform         | O
+Ġoptions        | O
+Ġof             | O
+Alignment Summary: 0 entities found, 0 entities not found
+Ġan             | O
+Ġissue          | O
+Ġwith           | O
+Ġsign           | O
+-               | O
+up              | O
+Alignment Summary: 0 entities found, 0 entities not found
+Epoch 1/3:
+  Train Loss: 1.8349, Intent F1: 0.1590, Category F1: 0.3253, NER F1: 0.0657
+  Val Loss: 1.3080, Intent F1: 0.5923, Category F1: 0.7343, NER F1: 0.0990
+Starting Epoch 2/3 [Training]
+Aligning NER labels for text: when will i obtain a reimbursement of money...
+Aligning NER labels for text: when am i gonna get a reimbursement...
+Debug Aligned Labels:
+NER Labels: []
+Token | Aligned Label
+Debug Aligned Labels:
+when            | O
+Token | Aligned Label
+Ġwill           | O
+when            | O
+Ġi              | O
+Ġam             | O
+Ġobtain         | O
+Ġi              | O
+Ġa              | O
+Ġgonna          | O
+Ġreimbursement  | O
+Ġget            | O
+Ġof             | O
+Ġa              | O
+Ġmoney          | O
+Ġreimbursement  | O
+Alignment Summary: 0 entities found, 0 entities not found
+Alignment Summary: 0 entities found, 0 entities not found
+Aligning NER labels for text: where do i see at what time i can reach customer s...
+Aligning NER labels for text: edit info on premium account...
+NER Labels: []
+NER Labels: []
+Debug Aligned Labels:
+Debug Aligned Labels:
+Token | Aligned Label
+Token | Aligned Label
+where           | O
+edit            | O
+Ġdo             | O
+Ġinfo           | O
+Ġi              | O
+Ġon             | O
+Ġsee            | O
+Ġpremium        | O
+Ġat             | O
+Ġaccount        | O
+Ġwhat           | O
+Alignment Summary: 0 entities found, 0 entities not found
+Ġtime           | O
+Ġi              | O
+Ġcan            | O
+Ġreach          | O
+Ġcustomer       | O
+Ġservice        | O
+?               | O
+Alignment Summary: 0 entities found, 0 entities not found
+Input IDs is on: cuda:0
+Epoch 2/3 [Validation]
+Aligning NER labels for text: can i see under which circumstances can i ask for ...
+Aligning NER labels for text: what do i need to do to recover the pwd of my prof...
+NER Labels: []
+NER Labels: []
+Debug Aligned Labels:
+Debug Aligned Labels:
+Token | Aligned Label
+can             | O
+l
+what            | O
+Ġi              | O
+Ġdo             | O
+Ġsee            | O
+Ġi              | O
+Ġunder          | O
+Ġneed           | O
+Ġwhich          | O
+Ġto             | O
+Ġcircumstances  | O
+Ġdo             | O
+Ġcan            | O
+Ġto             | O
+Ġi              | O
+Ġrecover        | O
+Ġask            | O
+Ġthe            | O
+Ġfor            | O
+Ġp              | O
+Ġa              | O
+wd              | O
+Ġrefund         | O
+Ġof             | O
+?               | O
+Ġmy             | O
+Alignment Summary: 0 entities found, 0 entities not found
+Ġprofile        | O
+Aligning NER labels for text: i do not know how i can see the accepted payment o...
+?               | O
+NER Labels: []
+Debug Aligned Labels:
+ntities found, 0 entities not found
+Aligning NER labels for text: i don't know how to inform of an issue with sign-u...
+Token | Aligned Label
+NER Labels: []
+i               | O
+Debug Aligned Labels:
+Ġdo             | O
+Token | Aligned Label
+Ġnot            | O
+i               | O
+Ġknow           | O
+Ġdon            | O
+Ġhow            | O
+'t              | O
+Ġi              | O
+Ġknow           | O
+Ġcan            | O
+Ġhow            | O
+Ġsee            | O
+Ġto             | O
+Ġthe            | O
+Ġinform         | O
+Ġaccepted       | O
+Ġof             | O
+Ġpayment        | O
+Ġan             | O
+Ġoptions        | O
+Ġissue          | O
+Alignment Summary: 0 entities found, 0 entities not found
+Ġwith           | O
+Ġsign           | O
+-               | O
+up              | O
+Alignment Summary: 0 entities found, 0 entities not found
+Epoch 2/3:
+  Train Loss: 1.1450, Intent F1: 0.5842, Category F1: 0.7629, NER F1: 0.1461
+  Val Loss: 0.8184, Intent F1: 0.7748, Category F1: 0.8697, NER F1: 0.2502
+Starting Epoch 3/3 [Training]
+Aligning NER labels for text: can i open a pro account for my dad...
+Aligning NER labels for text: create standard account for wife...
+NER Labels: []
+NER Labels: []
+Debug Aligned Labels:
+Debug Aligned Labels:
+Token | Aligned Label
+Token | Aligned Label
+can             | O
+create          | O
+Ġi              | O
+Ġstandard       | O
+Ġopen           | O
+Ġaccount        | O
+Ġa              | O
+Ġfor            | O
+Ġpro            | O
+Ġwife           | O
+Ġaccount        | O
+Alignment Summary: 0 entities found, 0 entities not found
+Ġfor            | O
+Aligning NER labels for text: i do not know what i have to do to file a claim...
+Ġmy             | O
+NER Labels: []
+Ġdad            | O
+Debug Aligned Labels:
+Alignment Summary: 0 entities found, 0 entities not found
+Token | Aligned Label
+Aligning NER labels for text: i need help to cancel purchase ord-9188694...
+i               | O
+NER Labels: [{'text': 'ORD-9188694', 'label': 'order_number'}]
+Ġdo             | O
+Debug Aligned Labels:
+Ġnot            | O
+Token | Aligned Label
+Ġknow           | O
+i               | O
+Ġwhat           | O
+Ġneed           | O
+Ġi              | O
+Ġhelp           | O
+Ġhave           | O
+Ġto             | O
+Ġto             | O
+Ġcancel         | O
+Ġdo             | O
+Ġpurchase       | O
+Ġto             | O
+Ġord            | B-order_number
+Ġfile           | O
+-               | I-order_number
+Ġa              | O
+9               | I-order_number
+Ġclaim          | O
+188             | I-order_number
+Alignment Summary: 0 entities found, 0 entities not found
+694             | I-order_number
+Alignment Summary: 1 entities found, 0 entities not found
+Input IDs is on: cuda:0
+Epoch 3/3 [Validation]
+Aligning NER labels for text: can i see under which circumstances can i ask for ...
+NER Labels: []
+Aligning NER labels for text: what do i need to do to recover the pwd of my prof...
+Debug Aligned Labels:
+NER Labels: []
+Token | Aligned Label
+Debug Aligned Labels:
+can             | O
+Token | Aligned Label
+Ġi              | O
+what            | O
+Ġsee            | O
+Ġdo             | O
+Ġunder          | O
+Ġi              | O
+Ġwhich          | O
+Ġneed           | O
+Ġcircumstances  | O
+Ġto             | O
+Ġcan            | O
+Ġdo             | O
+Ġi              | O
+Ġto             | O
+Ġask            | O
+Ġrecover        | O
+Ġfor            | O
+Ġthe            | O
+Ġa              | O
+Ġp              | O
+Ġrefund         | O
+wd              | O
+?               | O
+Ġof             | O
+Alignment Summary: 0 entities found, 0 entities not found
+Ġmy             | O
+Aligning NER labels for text: i do not know how i can see the accepted payment o...
+Ġprofile        | O
+NER Labels: []
+?               | O
+Debug Aligned Labels:
+Alignment Summary: 0 entities found, 0 entities not found
+Token | Aligned Label
+Aligning NER labels for text: i don't know how to inform of an issue with sign-u...
+i               | O
+NER Labels: []
+Ġdo             | O
+Debug Aligned Labels:
+Ġnot            | O
+Token | Aligned Label
+Ġknow           | O
+i               | O
+Ġhow            | O
+Ġdon            | O
+Ġi              | O
+'t              | O
+Ġcan            | O
+Ġknow           | O
+Ġsee            | O
+Ġhow            | O
+Ġthe            | O
+Ġto             | O
+Ġaccepted       | O
+Ġinform         | O
+Ġpayment        | O
+Ġof             | O
+Ġoptions        | O
+Ġan             | O
+Alignment Summary: 0 entities found, 0 entities not found
+Ġissue          | O
+Ġwith           | O
+Ġsign           | O
+-               | O
+up              | O
+Alignment Summary: 0 entities found, 0 entities not found
+Epoch 3/3:
+  Train Loss: 0.7755, Intent F1: 0.7722, Category F1: 0.8723, NER F1: 0.2021
+  Val Loss: 0.5420, Intent F1: 0.8438, Category F1: 0.9072, NER F1: 0.2618
+Training completed in 10.12 minutes
+Training history saved to training_history.json
+Evaluating model on test set...
+Aligning NER labels for text: i do not know what i have to do to get my invoice ...
+NER Labels: []
+Aligning NER labels for text: what do i ned to do to change to the real estate a...
+Debug Aligned Labels:
+NER Labels: [{'text': 'Real Estate', 'label': 'account_category'}]
+Token | Aligned Label
+Debug Aligned Labels:
+i               | O
+Token | Aligned Label
+Ġdo             | O
+what            | O
+Ġnot            | O
+Ġdo             | O
+Ġknow           | O
+Ġi              | O
+Ġwhat           | O
+Ġn              | O
+Ġi              | O
+ed              | O
+Ġhave           | O
+Ġto             | O
+Ġto             | O
+Ġdo             | O
+Ġdo             | O
+Ġto             | O
+Ġto             | O
+Ġchange         | O
+Ġget            | O
+Ġto             | O
+Ġthe            | O
+Ġmy             | O
+Ġreal           | B-account_category
+Ġinvoice        | O
+Ġestate         | I-account_category
+Ġ#              | O
+Ġaccount        | O
+8               | O
+?               | O
+56              | O
+Alignment Summary: 1 entities found, 0 entities not found
+32              | O
+Aligning NER labels for text: notify of errorw with online registration...
+Alignment Summary: 0 entities found, 0 entities not found
+NER Labels: []
+Aligning NER labels for text: transfer to live agent...
+Debug Aligned Labels:
+NER Labels: []
+Token | Aligned Label
+Debug Aligned Labels:
+not             | O
+ify             | O
+Ġof             | O
+Token | Aligned Label
+Ġerror          | O
+transfer        | O
+w               | O
+Ġto             | O
+Ġwith           | O
+Ġlive           | O
+Ġonline         | O
+Ġagent          | O
+Ġregistration   | O
+Alignment Summary: 0 entities found, 0 entities not found
+Alignment Summary: 0 entities found, 0 entities not found
+Sample Prediction (First Batch):
+Token | Predicted NER | True NER
+i               | O               | O
+Ġdo             | O               | O
+Ġnot            | O               | O
+Ġknow           | O               | O
+Ġwhat           | O               | O
+Ġi              | O               | O
+Ġhave           | O               | O
+Ġto             | O               | O
+Ġdo             | O               | O
+Ġto             | O               | O
+Ġget            | O               | O
+Ġmy             | O               | O
+Ġinvoice        | O               | O
+Ġ#              | B-refund_amount | O
+8               | I-order_number  | O
+56              | I-order_number  | O
+32              | I-order_number  | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | O               | O
+[PAD]           | I-order_number  | O
+[PAD]           | I-order_number  | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+[PAD]           | O               | O
+Test Results:
+  Loss: 0.5423
+  Intent F1: 0.8491
+  Category F1: 0.9038
+  NER F1: 0.2503
+Test results saved to test_results.json
+Model saved to /content/drive/MyDrive/thesis/Baseline_freeze_v1/baseline_model.pth
