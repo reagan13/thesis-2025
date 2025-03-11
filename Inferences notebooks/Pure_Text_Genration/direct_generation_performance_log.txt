@@ -1,0 +1,18 @@
+=== DIRECT GENERATION PERFORMANCE BENCHMARK RESULTS ===
+
+CPU PERFORMANCE:
+Average Generation Time: 15.8998 seconds
+Average Memory Usage: 2.2130 MB
+
+GPU PERFORMANCE:
+Average Generation Time: 2.4145 seconds
+Average Memory Usage: 634.2379 MB
+
+CPU vs GPU COMPARISON:
+Generation Speed Improvement: 6.59x faster on GPU
+
+Notes:
+- GPU memory usage is typically higher but processing is faster
+- Direct generation without classification reduces overall processing time
+
+=== END OF REPORT ===
